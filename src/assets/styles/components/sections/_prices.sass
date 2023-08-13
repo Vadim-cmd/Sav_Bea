@@ -1,0 +1,72 @@
+.app-prices
+    .prices
+        &-item
+            +screen($lmd, 'max')
+                &:nth-child(1)
+                    order: 1
+
+            &--content
+                background-color: $white
+
+            &--head
+                font-weight: 500
+                color: $black
+                font-size: 29px
+                line-height: 35px
+
+                +screen($md)
+                    font-size: 36px
+                    line-height: 44px
+
+                +screen($lmd)
+                    font-size: 36px
+                    line-height: 44px
+
+            &--price
+                font-weight: 600
+                color: $black
+                font-size: 33px
+                line-height: 40px
+
+                +screen($md)
+                    font-size: 27px
+                    line-height: 32px
+
+                +screen($lmd)
+                    font-size: 44px
+                    line-height: 54px
+
+            &--details
+                color: $white
+                background-color: transparent
+                border: 1px solid $white
+
+                p
+                    font-size: 16px
+                    line-height: 20px
+
+                    +screen($md)
+                        font-size: 20px
+                        line-height: 30px
+
+            &--text
+                color: $black
+                font-weight: 500
+                min-height: 210px
+
+                font-size: 19px
+                line-height: 24px
+                margin-bottom: 33px
+
+                +screen($md)
+                    font-size: 16px
+                    line-height: 20px
+                    margin-bottom: 41px
+
+                +screen($lmd)
+                    font-size: 24px
+                    line-height: 29px
+                    margin-bottom: 35px
+
+                strong
+                    font-weight: 600

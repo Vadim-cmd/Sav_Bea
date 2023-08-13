@@ -1,0 +1,98 @@
+.main-section
+    margin-bottom: 160px
+
+    +screen($md)
+        margin-bottom: 180px
+
+    +screen($lmd)
+        margin-bottom: 200px
+
+.section-title
+    font-weight: 500
+    font-size: 36px
+
+    +screen($sd)
+        font-size: 50px
+
+    +screen($lmd)
+        font-size: 60px
+
+.section-subtitle
+    font-weight: 500
+    font-size: 24px
+
+    +screen($sd)
+        font-size: 36px
+
+    +screen($lmd)
+        font-size: 50px
+
+.button
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 100%
+    height: 60px
+    padding: 12px
+    border-radius: 50px
+    transition: $primary-transition
+
+    &.default
+        color: $white
+        border: 1px solid $white
+        height: 41px
+
+    &.primary
+        background: $primary-gradient
+        color: $white
+        max-width: 300px
+
+        &:active
+            box-shadow: inset 4px 4px 4px rgba(31, 29, 29, 0.2)
+
+    &.secondary
+        color: $black
+        border: 1px solid $white
+        background-color: $white
+        height: 41px
+
+    &.thirdary
+        color: $white
+        border: 2px solid $secondary
+
+.show-more
+    cursor: pointer
+
+    &.primary
+        font-size: 16px
+        line-height: 20px
+        font-weight: 500
+        text-decoration: underline
+
+        +screen($md)
+            font-size: 20px
+            line-height: 24px
+
+        +screen($lmd)
+            font-size: 18px
+            line-height: 22px
+            font-weight: 600
+
+.button-up
+    position: fixed
+    right: 20px
+    bottom: -100px
+    width: 50px
+    height: 50px
+    display: block
+    border-radius: 50%
+    background: $primary-gradient
+    z-index: 4
+
+    transition: bottom .2s ease
+
+    &.active
+        bottom: 20px
+
+    svg
+        transform: rotate(-90deg)

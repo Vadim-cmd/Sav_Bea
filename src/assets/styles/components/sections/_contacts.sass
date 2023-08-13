@@ -1,0 +1,96 @@
+.app-contacts
+
+    .wrapper
+        margin: 0 auto
+        max-width: 336px
+
+        +screen($sd)
+            max-width: 626px
+
+        +screen($lmd)
+            max-width: 843px
+
+    .contacts
+        &-text
+            font-size: 16px
+
+            & > svg
+                flex: 1 0 20px
+                transform: rotate(90deg)
+
+            a
+                font-size: 24px
+
+                svg
+                    flex: 1 0 33px
+
+            +screen($sd)
+                font-size: 20px
+
+                & > svg
+                    flex: 1 0 21px
+                    transform: none
+
+            +screen($lmd)
+                font-size: 30px
+
+                & > svg
+                    flex: 1 0 28px
+
+                a
+                    font-size: 40px
+
+                    svg
+                        flex: 1 0 44px
+
+        &-socials
+            padding-left: 4px
+            position: relative
+
+            &::before
+                content: ''
+                display: block
+                border-radius: 15px
+                width: calc(100% - 4px)
+                height: 100%
+                position: absolute
+                top: 6px
+                left: 0
+                z-index: 0
+                background-color: #EF628FCC
+
+            +screen($sd)
+                padding-left: 8px
+
+                &::before
+                    top: 7px
+
+            +screen($lmd)
+                padding-left: 11px
+
+                &::before
+                    top: 10px
+
+            ul
+                background-color: $secondary
+                border-radius: 15px
+                position: relative
+                z-index: 1
+
+                a
+                    font-size: 16px
+                    font-weight: 500
+
+                    +screen($md)
+                        font-size: 30px
+
+                    +screen($lmd)
+                        font-size: 40px
+            svg
+                flex: 0 0 24px
+
+                +screen($sd)
+                    flex: 0 0 33px
+
+                +screen($lmd)
+                    flex: 0 0 44px

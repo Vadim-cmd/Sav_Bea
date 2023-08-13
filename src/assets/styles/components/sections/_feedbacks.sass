@@ -1,0 +1,108 @@
+.app-feedbacks
+    .feedbacks
+        &-item
+            background-color: $white
+            color: $black
+            position: relative
+            border-radius: 28px 123px 28px 28px
+
+            +screen($md)
+                border-radius: 50px 224px 50px 50px
+
+            &--active
+                content: ''
+                display: block
+                position: absolute
+                bottom: 0px
+                width: calc(100% - 20px)
+                height: 90px
+                left: 50%
+                transform: translateX(-50%)
+                z-index: 0
+
+                background: linear-gradient(360deg, #FEF6F6 0%, rgba(254, 249, 249, 0) 100%)
+                border-bottom-left-radius: 50px
+                border-bottom-right-radius: 50px
+                cursor: pointer
+
+                &.hide
+                    opacity: 0
+                    pointer-events: none
+
+                &::before
+                    content: ''
+                    display: block
+                    position: absolute
+                    z-index: 1
+                    border: 3px solid #0B0909
+                    width: 60px
+                    border-radius: 3px
+                    left: 50%
+                    bottom: 16px
+                    transform: translateX(-50%)
+
+            &--avatar
+                width: 110px
+                height: 110px
+                position: absolute
+                right: 10px
+                top: -36px
+                display: flex
+                align-items: center
+                justify-content: center
+                background-repeat: no-repeat
+                background-position: center
+                background-size: 100%
+                background-image: url("data:image/svg+xml,%3Csvg%20width%3D%22190%22%20height%3D%22190%22%20viewBox%3D%220%200%20190%20190%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M79.4102%208.37794C86.9705%20-2.4743%20103.029%20-2.47431%20110.59%208.37794L131.909%2038.9803C134.211%2042.2843%20137.503%2044.7715%20141.31%2046.0832L176.939%2058.3587C188.817%2062.4512%20193.524%2076.7391%20186.404%2087.0901L163.78%20119.981C161.612%20123.134%20160.446%20126.867%20160.435%20130.694L160.32%20170.365C160.283%20183.341%20147.539%20192.462%20135.244%20188.313L101.076%20176.781C97.1345%20175.45%2092.8655%20175.45%2088.9241%20176.781L54.7556%20188.313C42.4614%20192.462%2029.7171%20183.341%2029.6797%20170.365L29.5652%20130.694C29.5542%20126.867%2028.3881%20123.134%2026.2196%20119.981L3.59583%2087.0901C-3.52408%2076.7391%201.18286%2062.4512%2013.061%2058.3587L48.69%2046.0832C52.4971%2044.7715%2055.789%2042.2843%2058.0907%2038.9803L79.4102%208.37794Z%22%20fill%3D%22url(%23paint0_linear_896_538)%22%2F%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22paint0_linear_896_538%22%20x1%3D%2220.4164%22%20y1%3D%225.84543%22%20x2%3D%22198.383%22%20y2%3D%22205.728%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%3Cstop%20stop-color%3D%22%23FD1640%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23EF628F%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3C%2Fsvg%3E")
+
+                +screen($md)
+                    width: 190px
+                    height: 190px
+                    right: 20px
+                    top: -60px
+
+                .avatar-wrapper
+                    overflow: hidden
+                    border-radius: 50%
+                    width: 66px
+                    height: 66px
+                    position: relative
+                    top: 5px
+
+                    +screen($md)
+                        width: 120px
+                        height: 120px
+                        top: 10px
+
+                    img
+                        position: absolute
+                        top: 50%
+                        left: 50%
+                        transform: translate(-50%, -50%)
+
+            &--title
+                font-size: 18px
+                line-height: 21px
+                font-weight: 500
+
+                +screen($lmd)
+                    font-size: 32px
+                    line-height: 39px
+
+            &--text
+                font-size: 12px
+                line-height: 18px
+                overflow: hidden
+                height: 100px
+
+                &.active
+                    height: auto !important
+
+                +screen($md)
+                    font-size: 24px
+                    line-height: 36px
+                    height: 175px
+
+                +screen($lmd)
+                    font-size: 20px
+                    line-height: 30px

@@ -1,0 +1,70 @@
+.app-banner
+    min-height: 785px
+    background-image: url($image + 'banner-bg.png')
+    background-repeat: no-repeat
+    background-size: 350%
+    background-position: 70% 70%
+
+    +screen($sd)
+        background-size: 265%
+
+    +screen(640px)
+        background-size: 190%
+        background-position: 80% 70%
+
+    +screen($md)
+        min-height: 940px
+
+    +screen($lmd)
+        min-height: 1010px
+        background-size: 130%
+        background-position: 75% 70%
+
+    +screen(1560px)
+        background-position: center
+        background-size: auto
+
+    .banner
+        &-wrapper
+            +screen($lmd)
+                padding-left: 135px
+
+        &-title
+            text-transform: uppercase
+            font-style: italic
+            font-weight: 600
+
+            font-size: 36px
+            line-height: 30px
+
+            +screen($sd)
+                font-size: 50px
+                line-height: 36px
+
+            +screen($md)
+                font-size: 70px
+                line-height: 50px
+
+            +screen($lmd)
+                font-size: 80px
+                line-height: 56px
+                letter-spacing: 0.08em
+
+        &-subtitle
+            font-weight: 500
+
+            font-size: 24px
+            line-height: 24px
+
+            +screen($md)
+                font-size: 36px
+                line-height: 26px
+
+            +screen($lmd)
+
+                font-size: 40px
+                line-height: 30px
+
+        &-socials
+            +screen($lmd, 'max')
+                display: none

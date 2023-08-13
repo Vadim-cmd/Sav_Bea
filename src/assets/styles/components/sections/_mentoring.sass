@@ -1,0 +1,112 @@
+.app-mentoring
+    background-image: url('@/images/background-lines.svg')
+    background-repeat: no-repeat
+    background-position: 64% 100%
+    background-size: 1249px
+    padding-bottom: 16.8%
+
+    +screen($lmd)
+        background-position: 70% 100%
+        background-size: 1773px
+        padding-bottom: 12.3%
+
+    +screen(1440px)
+        background-size: 125%
+        padding-bottom: 12.7%
+
+    .mentoring
+        &-content
+            position: relative
+            z-index: 1
+
+            +screen($md)
+                flex: 1 1 57%
+                max-width: 57%
+
+            &--item
+                &:nth-child(1)
+                    +screen($md)
+                        max-width: 614px
+
+                &:nth-child(2)
+                    +screen($md)
+                        max-width: 500px
+                        margin-left: auto
+
+            &--title
+                font-weight: 500
+                font-size: 28px
+                line-height: 34px
+
+                +screen($md)
+                    font-size: 36px
+                    line-height: 44px
+
+                +screen($lmd)
+                    font-size: 49px
+                    line-height: 60px
+
+            &--text
+                font-weight: 400
+                font-size: 16px
+                line-height: 20px
+
+                strong
+                    font-weight: 600
+
+                +screen($md)
+                    font-size: 16px
+                    line-height: 24px
+
+                +screen($lmd)
+                    font-size: 20px
+                    line-height: 30px
+
+        &-poster
+            position: relative
+
+            +screen($md)
+                flex: 1 1 41%
+                max-width: 41%
+
+            img
+                position: relative
+                z-index: 1
+
+            &--blur
+                position: absolute
+                background-color: #FD1640
+                filter: blur(175px)
+                left: 50%
+
+                transform: translateX(-25%)
+
+                +screen($lmd)
+
+                    transform: translateX(-50%)
+
+                &:nth-child(1)
+                    width: 414px
+                    height: 414px
+                    top: 0
+                    display: none
+
+                    +screen($lmd)
+                        display: block
+
+                &:nth-child(2)
+                    width: 430px
+                    height: 418px
+                    top: 0
+
+                    +screen($lmd)
+                        top: 30%
+
+                &:nth-child(3)
+                    background-color: #EF628F
+                    width: 416px
+                    height: 416px
+                    top: 45%
+
+                    +screen($lmd)
+                        top: 60%

@@ -1,0 +1,265 @@
+.app-courses
+    .courses
+        &-item
+            background-color: $white
+            position: relative
+
+            .courses-label
+                position: absolute
+                left: 0
+                top: 20%
+                transform: translateY(-50%)
+                font-size: 24px
+                font-weight: 600
+                line-height: 36px
+
+                .text
+                    position: absolute
+                    top: 50%
+                    left: 70px
+                    font-weight: 500
+                    color: $white
+                    transform: translateY(-61%)
+
+            &--picture
+                flex: 1 1 auto
+
+            &--content
+                flex: 0 0 330px
+                color: $black
+
+            &--title
+                font-size: 20px
+                line-height: 24px
+                font-weight: 500
+
+                +screen($md)
+                    font-size: 26px
+                    line-height: 32px
+
+                +screen($lmd)
+                    font-size: 36px
+                    line-height: 44px
+
+            &--price
+                font-size: 20px
+                line-height: 24px
+                font-weight: 600
+
+                span
+                    font-size: 12px
+                    font-weight: 500
+                    line-height: 15px
+                    color: rgba($color: $black, $alpha: 0.6)
+
+                +screen($md)
+                    font-size: 37px
+                    line-height: 45px
+
+                    span
+                        font-size: 16px
+                        line-height: 20px
+
+                +screen($lmd)
+                    font-size: 44px
+                    line-height: 54px
+
+            &--proposal
+                li
+                    font-size: 16px
+                    line-height: 20px
+                    font-weight: 500
+
+                    &:not(:last-child)
+                        margin-bottom: 20px
+
+                    &::before
+                        content: ''
+                        display: block
+                        width: 16px
+                        height: 16px
+                        flex: 0 0 16px
+                        margin-right: 7px
+                        border-radius: 50%
+                        background: $primary-gradient
+
+                +screen($md)
+                    li
+                        font-size: 22px
+                        line-height: 26px
+
+                        &:not(:last-child)
+                            margin-bottom: 30px
+
+                    &::before
+                        width: 21px
+                        height: 21px
+                        flex: 0 0 21px
+                        margin-right: 10px
+
+                +screen($lmd)
+                    li
+                        font-size: 18px
+                        line-height: 22px
+
+                        &:not(:last-child)
+                            margin-bottom: 16px
+
+                    &::before
+                        width: 28px
+                        height: 28px
+                        flex: 0 0 28px
+                        margin-right: 12px
+
+            &--description
+                font-size: 16px
+                line-height: 20px
+                font-weight: 400
+
+                +screen($md)
+                    font-size: 20px
+                    line-height: 24px
+
+                +screen($lmd)
+                    font-size: 18px
+                    font-weight: 500
+                    line-height: 22px
+
+                    p
+                        font-weight: 500
+
+    &.will-do
+        background-repeat: no-repeat
+        background-size: cover
+        background-image: url("data:image/svg+xml,%3Csvg%20width%3D%22375%22%20height%3D%221204%22%20viewBox%3D%220%200%20375%201204%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M-89.2769%20187.842C-23.4293%20199.051%20116.334%20244.517%20148.608%20336.713C188.95%20451.959%2063.4256%20486.509%2076.4174%20656.936C85.8623%20780.836%20161.319%20928.157%20408.303%20910.686C605.89%20896.709%20669.49%20979.704%20676.592%201022.95%22%20stroke%3D%22%23FD1640%22%2F%3E%3Cpath%20d%3D%22M-14.3238%20134.882C51.5239%20146.091%20191.288%20191.557%20223.561%20283.754C263.904%20398.999%20138.379%20433.549%20151.371%20603.977C160.815%20727.876%20236.272%20875.198%20483.256%20857.726C680.843%20843.75%20744.443%20926.744%20751.545%20969.989%22%20stroke%3D%22%23FD1640%22%2F%3E%3Cpath%20d%3D%22M-76.2847%20179.848C-10.4371%20191.057%20129.327%20236.523%20161.6%20328.72C201.943%20443.965%2076.4178%20478.515%2089.4096%20648.943C98.8545%20772.842%20174.311%20920.164%20421.295%20902.692C618.882%20888.715%20682.482%20971.71%20689.584%201014.95%22%20stroke%3D%22%23FD1640%22%2F%3E%3Cpath%20d%3D%22M-64.2925%20169.855C1.55512%20181.064%20141.319%20226.531%20173.593%20318.727C213.935%20433.972%2088.41004%20468.522%20101.402%20638.95C110.847%20762.85%20186.303%20910.171%20433.287%20902.7C630.874%20888.723%20694.474%20971.718%20701.576%201014.96%22%20stroke%3D%22%23FD1640%22%2F%3E%3Cpath%20d%3D%22M-51.3003%20160.862C14.5473%20172.071%20154.311%20217.538%20186.585%20309.734C226.927%20424.979%20101.402%20459.529%20114.394%20629.957C123.839%20753.857%20200.295%20901.178%20447.279%20883.707C644.867%20869.73%20708.467%20952.725%20715.569%20995.969%22%20stroke%3D%22%23FD1640%22%2F%3E%3Cpath%20d%3D%22M-38.3091%20151.869C27.5385%20163.078%20167.302%20208.545%20199.576%20300.741C239.918%20415.986%20114.394%20450.536%20127.385%20620.964C136.83%20744.864%20212.287%20892.185%20459.271%20874.714C656.858%20860.737%20720.458%20943.732%20727.559%20986.976%22%20stroke%3D%22%23FD1640%22%2F%3E%3Cpath%20d%3D%22M-27.316%20143.875C38.5317%20155.084%20178.295%20200.551%20210.569%20292.747C250.911%20407.992%20125.387%20442.542%20138.378%20612.97C147.823%20736.87%20223.28%20884.191%20470.264%20866.72C667.851%20852.743%20731.451%20935.738%20738.552%20978.982%22%20stroke%3D%22%23FD1640%22%2F%3E%3C%2Fsvg%3E")
+
+        +screen($md)
+            background-position: 60% 30%
+            background-size: 115%
+            background-image: url("data:image/svg+xml,%3Csvg%20width%3D%221509%22%20height%3D%22530%22%20viewBox%3D%220%200%201509%20530%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M17%20416.717C72.5307%20358.55%20216.39%20246.316%20347.581%20262.716C511.571%20283.216%20472.769%20423.063%20685.451%20498.718C840.069%20553.718%201064.97%20556.718%201201.89%20307.717C1311.42%20108.515%201451.6%2089.7152%201508%20105.215%22%20stroke%3D%22%23FD1640%22%2F%3E%3Cpath%20d%3D%22M1%20316.717C56.5307%20258.55%20200.39%20146.316%20331.581%20162.716C495.571%20183.216%20456.769%20323.063%20669.451%20398.718C824.069%20453.718%201048.97%20456.718%201185.89%20207.717C1295.42%208.51532%201435.6%20-10.2848%201492%205.21531%22%20stroke%3D%22%23FD1640%22%2F%3E%3Cpath%20d%3D%22M15%20400.717C70.5307%20342.55%20214.39%20230.316%20345.581%20246.716C509.571%20267.216%20470.769%20407.063%20683.451%20482.718C838.069%20537.718%201062.97%20540.718%201199.89%20291.717C1309.42%2092.5153%201449.6%2073.7152%201506%2089.2153%22%20stroke%3D%22%23FD1640%22%2F%3E%3Cpath%20d%3D%22M11%20383.717C66.5307%20325.55%20210.39%20213.316%20341.581%20229.716C505.571%20250.216%20466.769%20390.063%20679.451%20465.718C834.069%20520.718%201058.97%20523.718%201195.89%20274.717C1305.42%2075.5153%201445.6%2056.7152%201502%2072.2153%22%20stroke%3D%22%23FD1640%22%2F%3E%3Cpath%20d%3D%22M9%20366.717C64.5307%20308.55%20208.39%20196.316%20339.581%20212.716C503.571%20233.216%20464.769%20373.063%20677.451%20448.718C832.069%20503.718%201056.97%20506.718%201193.89%20257.717C1303.42%2058.5153%201443.6%2039.7152%201500%2055.2153%22%20stroke%3D%22%23FD1640%22%2F%3E%3Cpath%20d%3D%22M6%20349.717C61.5307%20291.55%20205.39%20179.316%20336.581%20195.716C500.571%20216.216%20461.769%20356.063%20674.451%20431.718C829.069%20486.718%201053.97%20489.718%201190.89%20240.717C1300.42%2041.5153%201440.6%2022.7152%201497%2038.2153%22%20stroke%3D%22%23FD1640%22%2F%3E%3Cpath%20d%3D%22M4%20333.717C59.5307%20275.55%20203.39%20163.316%20334.581%20179.716C498.571%20200.216%20459.769%20340.063%20672.451%20415.718C827.069%20470.718%201051.97%20473.718%201188.89%20224.717C1298.42%2025.5153%201438.6%206.71521%201495%2022.2153%22%20stroke%3D%22%23FD1640%22%2F%3E%3C%2Fsvg%3E")
+
+    .will-do
+        &-item
+            max-width: 220px
+            position: relative
+
+            +screen($lmd)
+                max-width: 320px
+
+            &:nth-child(2)
+                +screen($md)
+                    margin-top: 177px
+
+                +screen($lmd)
+                    margin-top: 350px
+
+            &::before
+                content: ''
+                position: absolute
+                background-color: #FA143F
+                filter: blur(100px)
+                z-index: 0
+
+                width: 137px
+                height: 137px
+                top: 41px
+                left: 41px
+
+                +screen($lmd)
+                    width: 200px
+                    height: 200px
+                    left: 60px
+                    top: 60px
+
+        &-poster
+            width: 220px
+            height: 220px
+            border-radius: 50%
+            overflow: hidden
+            position: relative
+            z-index: 1
+
+            +screen($lmd)
+                width: 320px
+                height: 320px
+
+        &-title
+            font-size: 20px
+            font-weight: 500
+            line-height: 24px
+            text-align: center
+            position: relative
+            z-index: 1
+
+            +screen($lmd)
+                font-size: 32px
+                line-height: 39px
+
+    .advantages
+        &-wrapper
+            max-width: 1125px
+            margin: 0 auto
+
+        &-item
+            +screen($lmd, 'max')
+                &:nth-child(1)
+                    order: 0
+
+                &:nth-child(2)
+                    order: 2
+
+                &:nth-child(3)
+                    order: 1
+
+                &:nth-child(4)
+                    order: 5
+
+                &:nth-child(5)
+                    order: 4
+
+            &--wrapper
+                &.accessibility
+                    +screen($md)
+                        max-width: 365px
+
+        &-icon
+            img
+                width: auto
+
+        &-title
+            font-weight: 500
+            font-size: 28px
+            line-height: 34px
+            +screen($md)
+                font-size: 36px
+                line-height: 44px
+
+        &-text
+            font-size: 20px
+            line-height: 30px
+
+            +screen($md)
+                font-size: 22px
+                line-height: 27px
+
+    .results
+        max-width: 777px
+
+        &-item
+            font-weight: 500
+            font-size: 24px
+            line-height: 36px
+
+            span
+                font-size: 50px
+
+            +screen($md)
+                font-size: 26px
+                line-height: 32px
+
+            +screen($lmd)
+                font-size: 32px
+                line-height: 39px
+
+                span
+                    font-size: 60px

@@ -1,0 +1,16 @@
+@function offset-radius($i)
+    @return math.div(($i * 2.5), 20) * 1rem
+
+.radius
+    @for $i from 1 through 30
+        &-#{$i}
+            border-radius: +offset-radius($i)
+
+    @each $device, $width in $dw
+        @for $i from 1 through 30
+            &-#{$device}-#{$i}
+                +screen($width)
+                    border-radius: +offset-radius($i)
+
+    &-circle
+        border-radius: 50%
