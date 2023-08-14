@@ -1,102 +1,102 @@
 {
     "i-know-my-voice": {
         "headers": {
-            "title": "Курс “I know my voice”",
+            "title": "Course “I know my voice”",
             "poster": "./images/courses/photo-1.jpg",
-            "content": "<p class=\"mb-6\">На цьому курсі ти отримаєш новітні знання про голос через Американську научну модель EVT</p><p class=\"mb-6\">Основна мета - це розвиток м’язового контролю над голосом</p><p class=\"mb-6\">Оволодієш вокальними техніками:</p><ul class=\"mb-6\"><li>- fry</li><li>- субтон</li><li>- фальцет</li><li>- 4 види Mix voice</li><li>- Belting (рівень 1)</li><li>- Whistle tone (СВИСТОК)</li><li>- Ratle (рик як у Beyonce, Christina Aguilera)</li></ul><p class=\"mb-6\">Ви навчитеся аналізувати свій та інші голоси</p><p>Отримаєш знання необхідні для гігієни голосу <br/>Створиш свій власний вокальний дизайн <br/> на прикладі пісні, яку ми разом вивчимо</p>"
+            "content": "<p class=\"mb-6\">On this Course you will get the latest knowledge about voice through the American Scientific Model EVT</p><p class=\"mb-6\">The main goal is the development of muscle control over the voice</p><p class=\"mb-6\">You will master vocal techniques:</p><ul class=\"mb-6\"><li>- fry</li><li>- subton</li><li>- falsetto</li><li>- 4 types of Mixed voice</li><li>- Belting (рівень 1)</li><li>- Whistle tone (WHISTLE)</li><li>- Ratle (roar as in Beyonce, Christina Aguilera)</li></ul><p class=\"mb-6\">You will learn to analyze your and other voices</p><p>Get the knowledge necessary for voice hygiene <br/>You will reate your own vocal design <br/> on the example of a song that we will study together</p>"
         },
         "body": {
-            "content": "<div class=\"i-know-my-voice-wrapper\"><ul><li><div>Тривалість - &nbsp;<strong>6 тижнів</strong></div></li><li><div><strong>2 заняття</strong> на тиждень - теорія та практика</div></li><li><div>1 заняття - <strong>2 години</strong></div></li><li><div>Підтримка <strong>24\\7</strong></div></li><li><div>Підсумковий тест та <strong>сертифікат</strong></div></li></ul><div class=\"i-know-my-voice-medias\"><p>Практичні матеріали та завдання у форматах:</p><div><svg width=\"63\" height=\"76\"><use xlink:href=\"./icons/icons-sprite.svg#icon-volume\"/></svg><svg width=\"76\" height=\"76\"><use xlink:href=\"./icons/icons-sprite.svg#icon-play\"/></svg><svg width=\"82\" height=\"76\"><use xlink:href=\"./icons/icons-sprite.svg#icon-pdf\"/></svg></div></div><div class=\"warning-text\">У кінці курсу на вас чекатиме <strong>вокальний прорив - </strong>розуміння та уміння контролювати ваш голос Володіння 6 основними техніками та прийомами</div></div>"
+            "content": "<div class=\"i-know-my-voice-wrapper\"><ul><li><div>Duration - &nbsp;<strong>6 weeks</strong></div></li><li><div><strong>2 lessons</strong> per week - theory and practice</div></li><li><div>1 lesson - <strong>2 hours</strong></div></li><li><div>Support <strong>24\\7</strong></div></li><li><div>Final test and <strong>certificate</strong></div></li></ul><div class=\"i-know-my-voice-medias\"><p>Practical materials and tasks in formats:</p><div><svg width=\"63\" height=\"76\"><use xlink:href=\"./icons/icons-sprite.svg#icon-volume\"/></svg><svg width=\"76\" height=\"76\"><use xlink:href=\"./icons/icons-sprite.svg#icon-play\"/></svg><svg width=\"82\" height=\"76\"><use xlink:href=\"./icons/icons-sprite.svg#icon-pdf\"/></svg></div></div><div class=\"warning-text\">At the end of course will be waiting for you <strong>vocal breakthrough - </strong>understanding and ability to control your voice Possession of 6 basic techniques and techniques</div></div>"
         },
         "prices": {
-            "title": "Ціна",
-            "link": "https://paypal.me/bookingsavbea?country.x=GB&locale.x=en_GB",
+            "title": "Price",
+            "link": "https://wa.me/message/DOGACHSEYEJ7M1",
             "listType": "secondary",
             "items": [
                 {
                     "price": 200,
-                    "type": "Зі мною"
+                    "type": "With Me"
                 }
             ]
         }
     },
     "breath-control": {
         "headers": {
-            "title": "Курс “Breath control”",
+            "title": "Course “Breath control”",
             "poster": "./images/courses/photo-2.jpg",
-            "content": "<p class=\"mb-6\">Знаю, що для багатьох вокальне дихання залишається загадкою з \"безліччю інтерпретацій\", але я допоможу вам у всьому розібратись, покажу найвайжливіші дихальні вправи.</p><p class=\"mb-6\">Крім цього, ми проаналізуємо найпоширеніші помилки у диханні та стереотипи.</p><p class=\"mb-6\">”Як правильно вдихати? Як видихати?<br/>Чи потрібно вокалісту вчитись дихати?<br/>Що таке низький вдих? Чи потрібно дихати животом? Що таке опора? Як з'єднати дихання і звук? Як розслабити тіло<br/>та позбутись зажимів під час дихання?</p>"
+            "content": "<p class=\"mb-6\">I know that for many vocal breathing remains a mystery with\"multiple interpretations\", but I'll help you figure it out, show the most gentle breathing exercises.</p><p class=\"mb-6\">In addition, we will analyze the most common breathing errors and stereotypes.</p><p class=\"mb-6\">”How to inhale? How to exhale?<br/>Should the vocalist learn how to breathe?<br/>What is a low breath? Do I need to breathe belly? What is a support? How to connect breath and sound? How to relax the body<br/>and get rid of the clamps while breathing?</p>"
         },
         "body": {
-            "content": "<p class=\"breath-control-head-list\"><strong>Отже, у цьому курсі Ви:</strong></p><ul class=\"breath-control-list\"><li><span>1.</span>Візьмете в арсенал найосновніші дихальні вправи</li><li><span>2.</span>Зрозумієте анатомію дихання та розвієте усі відомі міфи</li><li><span>3. </span>Дізнаєтесь що таке вокальна опора і як її \"прокачати\"</li><li><span>4.</span>Прокачаєте витривалість своєї \"дихалки\" для сцени.</li><li><span>5.</span>В найменших деталях навчитеся робити об'ємний вдих та контрольований видих</li><li><span>6.</span>Навчитеся правильно дихати для покращення своєї вокальної техніки</li><li><span>7.</span>З'єднаєте свій звук з тілом</li><li><span>8.</span>Пройдете блок вправ з дихальної йоги</li></ul><p class=\"warning-text\"><strong>Ексклюзив</strong> - я розповім про дихальну йогу, яка в свій час допомогла мені позбутись тілесних \"затисків\"</p>",
-            "programTitle": "Програма курсу:",
+            "content": "<p class=\"breath-control-head-list\"><strong>So, in this Course you will:</strong></p><ul class=\"breath-control-list\"><li><span>1.</span>Take into the arsenal the most basic breathing exercises</li><li><span>2.</span>Understand the anatomy of breathing and dispel all known myths</li><li><span>3. </span>Learn what vocal support is and how to \"upgrade\" it</li><li><span>4.</span>Pump the endurance of your\"breaths\" for the stage.</li><li><span>5.</span>In the smallest details, learn how to take a voluminous breath and controlled exhalation</li><li><span>6.</span>Learn to breathe properly to improve your vocal technique</li><li><span>7.</span>Connect your sound with your body</li><li><span>8.</span>Pass a block of exercises on breathing yoga</li></ul><p class=\"warning-text\"><strong>Exclusive</strong> - I'll talk about breathing yoga, which in its time helped me get rid of bodily \"clamps\"</p>",
+            "programTitle": "Course Program:",
             "programs": [
                 {
-                    "text": "Основи дихання",
+                    "text": "Basics of breathing",
                     "border": true,
                     "type": "secondary",
-                    "inner": "<ul class=\"flex-container column align-start mt-5\"><li><span></span>4 завдання</li><li><span></span>Розминка та вдих</li><li><span></span>Постава вокаліста</li><li><span></span>Анатомія дихання</li><li><span></span>Найпоширеніші помилки</li></ul>"
+                    "inner": "<ul class=\"flex-container column align-start mt-5\"><li><span></span>4 tasks</li><li><span></span>Warm-up and breath</li><li><span></span>Posture of the vocalist</li><li><span></span>Anatomy of respiration</li><li><span></span>Most common mistakes</li></ul>"
                 },
                 
                 {
-                    "text": "Базові вправи",
+                    "text": "Basic exercises",
                     "border": true,
                     "type": "secondary",
-                    "inner": "<ul class=\"flex-container column align-start mt-5\"><li><span></span>4 завдання</li><li><span></span>Контрольований видих</li><li><span></span>Вправа Фарінелі</li><li><span></span>Опора</li><li><span></span>Дихання та звук</li></ul>"
+                    "inner": "<ul class=\"flex-container column align-start mt-5\"><li><span></span>4 tasks</li><li><span></span>Controlled exhalation</li><li><span></span>Exercise Farineli</li><li><span></span>Support</li><li><span></span>Breathing and sound</li></ul>"
                 },
                 {
-                    "text": "Свобода & сила",
+                    "text": "Freedom & Strength",
                     "border": true,
                     "type": "secondary",
-                    "inner": "<ul class=\"flex-container column align-start mt-5\"><li><span></span>2 завдання</li><li><span></span>Дихальна йога</li><li><span></span>Вокальна витривалість</li></ul>"
+                    "inner": "<ul class=\"flex-container column align-start mt-5\"><li><span></span>2 tasks</li><li><span></span>Breathing Yoga</li><li><span></span>Vocal endurance</li></ul>"
                 }
             ]
         },
         "prices": {
-            "title": "Тарифи",
-            "link": "https://paypal.me/bookingsavbea?country.x=GB&locale.x=en_GB",
+            "title": "Tarifs",
+            "link": "https://wa.me/message/DOGACHSEYEJ7M1",
             "listType": "primary",
             "items": [
                 {
                     "price": 100,
-                    "type": "Зі мною",
+                    "type": "With Me",
                     "list": [
                         {
                             "type": "avaliable",
-                            "text": "Супровід 24/7 протягом 1 місяця"
+                            "text": "Support 24/7 for 1 month"
                         },
                         {
                             "type": "avaliable",
-                            "text": "Вільний доступ 1 рік"
+                            "text": "Free access for 1 year"
                         },
                         {
                             "type": "avaliable",
-                            "text": "5 індивідуальних занять"
+                            "text": "5 individual lessons"
                         },
                         {
                             "type": "avaliable",
-                            "text": "Сертифікат в кінці проходження курсу"
+                            "text": "Certificate at the end of the course"
                         }
                     ]
                 },
                 {
                     "price": 50,
-                    "type": "Самостійно",
+                    "type": "Independently",
                     "list": [
                         {
                             "type": "unavalibale",
-                            "text": "Без супроводу"
+                            "text": "Unaccompanied"
                         },
                         {
                             "type": "avaliable",
-                            "text": "Вільний доступ 1 рік"
+                            "text": "Free access for 1 year"
                         },
                         {
                             "type": "avaliable",
-                            "text": "5 індивідуальних занять"
+                            "text": "5 individual lessons"
                         },
                         {
                             "type": "avaliable",
-                            "text": "Сертифікат в кінці проходження курсу"
+                            "text": "Certificate at the end of the course"
                         }
                     ]
                 }
@@ -105,75 +105,75 @@
     },
     "melismatic-vibes": {
         "headers": {
-            "title": "Курс “Melismatic vibes”",
+            "title": "Course “Melismatic vibes”",
             "poster": "./images/courses/photo-4.jpg",
-            "content": "<p class=\"mb-6\">Це унікальні знання у супер новому, зручному та доступному форматі. Тепер кожен зможе прокачати мелізматику</p><p class=\"mb-6\">Курс дозволить Вам:</p><ul><li><p>• Дізнатись секрети західної мелізматики</p></li><li><p>• Зрозуміти принцип вибудовування мелізмів</p></li><li><p>• Розвинути польотність та текстурність звуку, гнучкість та координацію голосу</p></li><li><p>• Застосувати західну техніку на слов'янському голосовому апараті</p></li><li><p>• Навчитися розбирати ритмічну фігуру всередині рифів та рулад</p></li><li><p>• Навчитися імпровізувати</p></li><li><p>• Опанувати стабільність і однорідність звуку</p></li><li><p>• Розширити вокальний діапазон</p></li></ul>"
+            "content": "<p class=\"mb-6\">Це унікальні знання у супер новому, зручному та доступному форматі. Тепер кожен зможе прокачати мелізматику</p><p class=\"mb-6\">Course дозволить Вам:</p><ul><li><p>• Дізнатись секрети західної мелізматики</p></li><li><p>• Зрозуміти принцип вибудовування мелізмів</p></li><li><p>• Розвинути польотність та текстурність звуку, гнучкість та координацію голосу</p></li><li><p>• Застосувати західну техніку на слов'янському голосовому апараті</p></li><li><p>• Навчитися розбирати ритмічну фігуру всередині рифів та рулад</p></li><li><p>• Навчитися імпровізувати</p></li><li><p>• Опанувати стабільність і однорідність звуку</p></li><li><p>• Розширити вокальний діапазон</p></li></ul>"
         },
         "body": {
-            "programTitle": "Програма курсу:",
+            "programTitle": "Course Program:",
             "programs": [
                 {
-                    "text": "Типи мелізмів",
+                    "text": "Types of melisms",
                     "border": true,
                     "type": "primary"
                 },
                 {
-                    "text": "Пластична гортань",
+                    "text": "Plastic larynx",
                     "border": true,
                     "type": "primary"
                 },
                 {
-                    "text": "Пентатоніка, розвиток слуху",
+                    "text": "Pentatonics, development of hearing",
                     "border": true,
                     "type": "primary"
                 },
                 {
-                    "text": "Прогрів та розслаблення",
+                    "text": "Warming up and relaxation",
                     "border": true,
                     "type": "primary"
                 },
                 {
-                    "text": "Дихальна практика",
+                    "text": "Respiratory practice",
                     "border": true,
                     "type": "primary"
                 },
                 {
-                    "text": "Інтеральні оспіви",
+                    "text": "Interval chants",
                     "border": true,
                     "type": "primary"
                 },
                 {
-                    "text": "Штрихи",
+                    "text": "Strokes",
                     "border": true,
                     "type": "primary"
                 },
                 {
-                    "text": "Міміка та Артикуляція",
+                    "text": "Facial Expressions and Articulation",
                     "border": true,
                     "type": "primary"
                 },
                 {
-                    "text": "Міміка та Артикуляція",
+                    "text": "Facial Expressions and Articulation",
                     "border": true,
                     "type": "primary"
                 },
                 {
-                    "text": "Типи змикання голосових зв’язок",
+                    "text": "Types of closure of the vocal cords",
                     "border": true,
                     "type": "primary"
                 },
                 {
-                    "text": "Розбір мелізмів Крістіни Агилери та Бейонсе",
+                    "text": "Analysis of melisms of Christina Aguilera and Beyoncé",
                     "border": true,
                     "type": "primary"
                 },
                 {
-                    "text": "Авторскі вправи",
+                    "text": "Author's exercises",
                     "border": true,
                     "type": "primary"
                 },
                 {
-                    "text": "Екстримальні техніки в мелізматиці",
+                    "text": "Extreme techniques in melismatics",
                     "border": true,
                     "type": "primary"
                 }
@@ -181,50 +181,50 @@
         },
         "prices": {
             "title": "Тарифи",
-            "link": "https://paypal.me/bookingsavbea?country.x=GB&locale.x=en_GB",
+            "link": "https://wa.me/message/DOGACHSEYEJ7M1",
             "listType": "primary",
             "items": [
                 {
                     "price": 200,
-                    "type": "Зі мною",
+                    "type": "With Me",
                     "list": [
                         {
                             "type": "avaliable",
-                            "text": "Супровід 24/7 протягом 1 місяця"
+                            "text": "Support 24/7 for 1 month"
                         },
                         {
                             "type": "avaliable",
-                            "text": "Вільний доступ 1 рік"
+                            "text": "Free access for 1 year"
                         },
                         {
                             "type": "avaliable",
-                            "text": "5 індивідуальних занять"
+                            "text": "5 individual lessons"
                         },
                         {
                             "type": "avaliable",
-                            "text": "Сертифікат в кінці проходження курсу"
+                            "text": "Certificate at the end of the course"
                         }
                     ]
                 },
                 {
                     "price": 75,
-                    "type": "Самостійно",
+                    "type": "Independently",
                     "list": [
                         {
                             "type": "unavalibale",
-                            "text": "Без супроводу"
+                            "text": "Unaccompanied"
                         },
                         {
                             "type": "avaliable",
-                            "text": "Вільний доступ 1 рік"
+                            "text": "Free access for 1 year"
                         },
                         {
                             "type": "avaliable",
-                            "text": "5 індивідуальних занять"
+                            "text": "5 individual lessons"
                         },
                         {
                             "type": "avaliable",
-                            "text": "Сертифікат в кінці проходження курсу"
+                            "text": "Certificate at the end of the course"
                         }
                     ]
                 }
@@ -233,89 +233,88 @@
     },
     "belting": {
         "headers": {
-            "title": "Курс “Belting”",
+            "title": "Course “Belting”",
             "poster": "./images/courses/photo-3.jpg",
-            "content": "<p class=\"mb-6\">На цьому курсі ти:</p><ul><li>1. Зрозумієш механіку та отримаєш необхідні технічні навички для звукоутворення техніки Белтинг</li><li>2. Навчишся відрізняти белт від інших схожих на звучання саундів</li><li>3. Отримаєш чіткий алгоритм покрокового оволодіння белтингом без голосових травм</li><li>4. Навчишся звучати як західні зірки Селін Діон та Уітні Хюстон</li><li>5. Дізнаєшся про можливості трансформації белтингу шляхом міксування його з іншими вокальними прийомами</li></ul>"
+            "content": "<p class=\"mb-6\">On this Course you will:</p><ul><li>1. Understand the mechanics and get the necessary technical skills for sound technology Belting</li><li>2. Learn to distinguish the belt from other sound-like sounds</li><li>3. Get a clear algorithm for step-by-step mastering of belting without voice injuries</li><li>4. Learn to sound like western stars Celine Dion and Whitney Houston</li><li>5. Learn about the possibilities of transforming belting by mixing it with other vocal techniques</li></ul>"
         },
         "body": {
-            "programTitle": "Програма курсу:",
+            "programTitle": "Course Program:",
             "programs": [
                 {
-                    "text": "Анатомія белтингу. Емоції та артистизм",
+                    "text": "Anatomy of belting. Emotions and artistry",
                     "border": true,
                     "type": "primary"
                 },
                 {
-                    "text": "Механіка здорового белтингу. Позиціонування",
+                    "text": "Mechanics of healthy belting. Positioning",
                     "border": true,
                     "type": "primary"
                 },
                 {
-                    "text": "Дихання. Об’єм та опора",
+                    "text": "Breath. Volume and support",
                     "border": true,
                     "type": "primary"
                 },
                 {
-                    "text": "Белт і напівбелт. Змішуємо фарби",
+                    "text": "Belt and half-belt. Mix the colors",
                     "border": true,
                     "type": "primary"
                 },
                 {
-                    "text": "Визначаємо белтинг на слух",
+                    "text": "Determine the belting by ear",
                     "border": true,
                     "type": "primary"
                 }
             ],
             "practicesMaterials": {
-                "text": "Практичні матеріали та завдання у форматах:"
+                "text": "Practical materials and tasks in formats:"
             }
         },
         "prices": {
-            "title": "Тарифи",
-            "link": "https://paypal.me/bookingsavbea?country.x=GB&locale.x=en_GB",
+            "title": "Tarifs",
+            "link": "https://wa.me/message/DOGACHSEYEJ7M1",
             "listType": "primary",
             "items": [
                 {
                     "price": 200,
-                    "type": "Зі мною",
+                    "type": "With Me",
                     "list": [
                         {
                             "type": "avaliable",
-                            "text": "Супровід 24/7 протягом 1 місяця"
+                            "text": "Support 24/7 for 1 month"
                         },
                         {
                             "type": "avaliable",
-                            "text": "Вільний доступ 1 рік"
+                            "text": "Free access for 1 year"
                         },
                         {
                             "type": "avaliable",
-                            "text": "5 індивідуальних занять"
+                            "text": "5 individual lessons"
                         },
                         {
                             "type": "avaliable",
-                            "text": "Сертифікат в кінці проходження курсу"
+                            "text": "Certificate at the end of the course"
                         }
                     ]
                 },
                 {
                     "price": 75,
-                    "type": "Самостійно",
+                    "type": "Independently",
                     "list": [
                         {
                             "type": "unavalibale",
-                            "text": "Без супроводу"
+                            "text": "Unaccompanied"
                         },
                         {
                             "type": "avaliable",
-                            "text": "Вільний доступ 1 рік"
+                            "text": "Free access for 1 year"
+                        },
+                        {
+                            "type": "avaliable"
                         },
                         {
                             "type": "avaliable",
-                            "text": "5 індивідуальних занять"
-                        },
-                        {
-                            "type": "avaliable",
-                            "text": "Сертифікат в кінці проходження курсу"
+                            "text": "Certificate at the end of the course"
                         }
                     ]
                 }
@@ -324,41 +323,41 @@
     },
     "power-of-voice": {
         "headers": {
-            "title": "Курс “Power of voice”",
+            "title": "Course “Power of voice”",
             "poster": "./images/courses/photo-5.jpg",
-            "content": "<p class=\"mb-6\">На цьому курсі ти:</p><ul><li class=\"mb-6\">1.Навчишся ефективному та грамотному мовленню</li><li class=\"mb-6\">2. Сміливо зможеш застосовувати свій голос в будь-якій ситуації</li><li class=\"mb-6\">3. Навчишся керувати головним інструментом для досягнення цілей, збільшення доходу, утримання уваги слухача</li><li class=\"mb-6\">4.Ти будеш впевненно відстоювати свою позицію</li></ul>"
+            "content": "<p class=\"mb-6\">On this course you will</p><ul><li class=\"mb-6\">1.Learn effective and competent speech</li><li class=\"mb-6\">2. You can safely use your voice in any situation</li><li class=\"mb-6\">3. Learn to manage the main tool to achieve goals, increase income, keep the listener's attention</li><li class=\"mb-6\">4.You will confidently defend your position</li></ul>"
         },
         "body": {
-            "content": "<div class=\"power-of-voice--wrapper\"><div><h3>Для кого курс:</h3><ul><li>Блогери</li><li>Спікери, коучі</li><li>Підприємці<li><li>Фахівці онлайн професій</li><li>Для тих, хто хоче розвиватися</li></ul></div> <div><h3>Курс “ Power of voice” для вас, якщо: </h3><ul><li>не любите свій голос або хочете звучати гарніше</li><li>звучите невпевнено та непереконливо</li><li>голос швидко втомлюється</li><li>відчуваєте затискачі</li><li>страх виступів</li></ul><div></div>",
-            "programTitle": "Програма курсу:",
+            "content": "<div class=\"power-of-voice--wrapper\"><div><h3>For whom this Course:</h3><ul><li>Bloggers</li><li>Speakers, coaches</li><li>Entrepreneurs<li><li>Specialists of online professions</li><li>For those who wants to develop</li></ul></div> <div><h3>Course “ Power of voice” for You if: </h3><ul><li>You don't like your voice or want to sound prettier</li><li>sound uncertain and unconvincing</li><li>voice gets tired quickly</li><li>feel clamps</li><li>fear of speaking</li></ul><div></div>",
+            "programTitle": "Course Program:",
             "programs": [
                 {
-                    "text": "Психологічні та фізичні затискачі",
+                    "text": "Psychological and physical clamps",
                     "border": true,
                     "type": "primary"
                 },
                 {
-                    "text": "Дихання та контроль",
+                    "text": "Breathing and control",
                     "border": true,
                     "type": "primary"
                 },
                 {
-                    "text": "Робота з регістрами та резонаторами",
+                    "text": "Work with registers and resonators",
                     "border": true,
                     "type": "primary"
                 },
                 {
-                    "text": "Темп та інтонування",
+                    "text": "Tempo and intonation",
                     "border": true,
                     "type": "primary"
                 },
                 {
-                    "text": "Міміка та жести тіла",
+                    "text": "Facial expressions and body gestures",
                     "border": true,
                     "type": "primary"
                 },
                 {
-                    "text": "Слова “паразити”",
+                    "text": "Words parasites",
                     "border": true,
                     "type": "primary"
                 },
@@ -379,45 +378,45 @@
             "items": [
                 {
                     "price": 200,
-                    "type": "Зі мною",
+                    "type": "With Me",
                     "list": [
                         {
                             "type": "avaliable",
-                            "text": "Супровід 24/7 протягом 1 місяця"
+                            "text": "Support 24/7 for 1 month"
                         },
                         {
                             "type": "avaliable",
-                            "text": "Вільний доступ 1 рік"
+                            "text": "Free access for 1 year"
                         },
                         {
                             "type": "avaliable",
-                            "text": "5 індивідуальних занять"
+                            "text": "5 individual lessons"
                         },
                         {
                             "type": "avaliable",
-                            "text": "Сертифікат в кінці проходження курсу"
+                            "text": "Certificate at the end of the course"
                         }
                     ]
                 },
                 {
                     "price": 75,
-                    "type": "Самостійно",
+                    "type": "Independently",
                     "list": [
                         {
                             "type": "unavalibale",
-                            "text": "Без супроводу"
+                            "text": "Unaccompanied"
                         },
                         {
                             "type": "avaliable",
-                            "text": "Вільний доступ 1 рік"
+                            "text": "Free access for 1 year"
                         },
                         {
                             "type": "avaliable",
-                            "text": "5 індивідуальних занять"
+                            "text": "5 individual lessons"
                         },
                         {
                             "type": "avaliable",
-                            "text": "Сертифікат в кінці проходження курсу"
+                            "text": "Certificate at the end of the course"
                         }
                     ]
                 }
