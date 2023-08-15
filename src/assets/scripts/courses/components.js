@@ -119,7 +119,7 @@ const prices = (options) => {
                 </div>
 
                 <a href="${
-                    options.link
+                    options.link || item.link
                 }" target="_black" class="button primary d-block mx-auto mt-8" style="max-width: 300px; height: 60px">
                     Купити!
                 </a>

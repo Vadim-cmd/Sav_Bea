@@ -28,7 +28,7 @@ document.querySelector('.button-up').addEventListener('click', function () {
             } else {
                 clearInterval(scrollInterval)
             }
-        }, 16)
+        }, 8)
     }
 
     scrollToTop()
@@ -36,10 +36,14 @@ document.querySelector('.button-up').addEventListener('click', function () {
 
 window.addEventListener('scroll', function () {
     const btnUp = document.querySelector('.button-up')
+    const header = document.querySelector('.app-header')
+
     if (window.scrollY > 200) {
         btnUp.classList.add('active')
+        header.classList.add('active')
     } else {
         btnUp.classList.remove('active')
+        header.classList.remove('active')
     }
 })
 
@@ -56,4 +60,5 @@ feedbacksItem.forEach((feedback) => {
         }
     })
 })
+
 console.log('connect')

@@ -2,6 +2,47 @@
 
 import Swiper from 'swiper'
 
+const certyficationModalCarousel = document.createElement('div')
+
+const certyficationItems = document.querySelectorAll('.certyfication-item')
+
+let certyficationItemsStr = ''
+
+certyficationItems.forEach((item) => {
+    const img = item.querySelector('img').src
+
+    certyficationItemsStr += `
+            <div class="certyfication-item my-auto swiper-slide">
+                <img
+                    src="${img}"
+                    alt="certyfication-1"
+                />
+            </div>
+        `
+})
+
+certyficationModalCarousel.setAttribute('class', 'footer-modal-window certyfication-modal')
+
+certyficationModalCarousel.innerHTML = `
+        <div class="inner radius-25 px-4 py-13 px-md-11 py-md-12" style="max-width: 728px">
+            <div class="window-close">
+                <svg width="24" height="24">
+                    <use xlink:href="./icons/icons-sprite.svg#icon-close" stroke="#EF628F" />
+                </svg>
+            </div>
+
+            <div class="certyficationModal swiper">
+                <div class="swiper-wrapper">
+                    ${certyficationItemsStr}
+                </div>
+                <div class="swiper-actions swiper-button-next"></div>
+                <div class="swiper-actions swiper-button-prev"></div>
+            </div>
+        </div>
+    `
+
+document.body.append(certyficationModalCarousel)
+
 const sliders = {
     feedbacks: {
         slidesPerView: 2.3,
@@ -114,6 +155,11 @@ const sliders = {
             },
         },
     },
+
+    certyficationModal: {
+        slidesPerView: 1,
+        spaceBetween: 28,
+    },
 }
 
 for (const key in sliders) {
@@ -147,17 +193,17 @@ for (const key in sliders) {
                 carousel.slideNext()
             }
         })
-    })
 
-    carousel.on('slideChange', () => {
-        swiperArrows.forEach((a) => a.classList.remove('disabled'))
+        carousel.on('slideChange', () => {
+            swiperArrows.forEach((a) => a.classList.remove('disabled'))
 
-        if (carousel.isEnd && arrow.classList.contains('swiper-button-next')) {
-            arrow.classList.add('disabled')
-        }
+            if (carousel.isEnd && arrow.classList.contains('swiper-button-next')) {
+                arrow.classList.add('disabled')
+            }
 
-        if (carousel.isBeginning && arrow.classList.contains('swiper-button-prev')) {
-            arrow.classList.add('disabled')
-        }
+            if (carousel.isBeginning && arrow.classList.contains('swiper-button-prev')) {
+                arrow.classList.add('disabled')
+            }
+        })
     })
 }

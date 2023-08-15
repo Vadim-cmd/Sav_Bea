@@ -4,6 +4,11 @@
     top: 0
     left: 0
 
+    &.active
+        position: fixed
+        z-index: 2
+        background: linear-gradient(90deg, rgba(239, 98, 143, 0.361) 0%, rgba(253, 22, 64, 0.4) 100%) 
+
     .button
         +screen($sd, 'max')
             display: none

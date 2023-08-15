@@ -44,8 +44,12 @@ $cicle-number: 24
 @each $class, $type in $mhv
     .#{$class}
         &-auto
-            margin-left: auto
-            margin-right: auto
+            @if $class == 'mx'
+                margin-left: auto
+                margin-right: auto
+            @else
+                margin-top: auto
+                margin-bottom: auto
 
         @each $device, $width in $dw
             &-#{$device}-auto

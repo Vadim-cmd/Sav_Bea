@@ -39,25 +39,19 @@ const plugins = () => {
         new HTMLWebpackPlugin({
             filename: `index.html`,
             template: './index.html',
-            minify: {
-                collapseWhitespace: isProd,
-            },
+            minify: isProd,
         }),
 
         new HTMLWebpackPlugin({
             filename: `ru/index.html`,
             template: './ru/index.html',
-            minify: {
-                collapseWhitespace: isProd,
-            },
+            minify: isProd,
         }),
 
         new HTMLWebpackPlugin({
             filename: `en/index.html`,
             template: './en/index.html',
-            minify: {
-                collapseWhitespace: isProd,
-            },
+            minify: isProd,
         }),
 
         new CleanWebpackPlugin(),

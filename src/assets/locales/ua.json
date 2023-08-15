@@ -70,10 +70,6 @@
                         },
                         {
                             "type": "avaliable",
-                            "text": "5 індивідуальних занять"
-                        },
-                        {
-                            "type": "avaliable",
                             "text": "Сертифікат в кінці проходження курсу"
                         }
                     ]
@@ -89,10 +85,6 @@
                         {
                             "type": "avaliable",
                             "text": "Вільний доступ 1 рік"
-                        },
-                        {
-                            "type": "avaliable",
-                            "text": "5 індивідуальних занять"
                         },
                         {
                             "type": "avaliable",
@@ -198,10 +190,6 @@
                         },
                         {
                             "type": "avaliable",
-                            "text": "5 індивідуальних занять"
-                        },
-                        {
-                            "type": "avaliable",
                             "text": "Сертифікат в кінці проходження курсу"
                         }
                     ]
@@ -217,10 +205,6 @@
                         {
                             "type": "avaliable",
                             "text": "Вільний доступ 1 рік"
-                        },
-                        {
-                            "type": "avaliable",
-                            "text": "5 індивідуальних занять"
                         },
                         {
                             "type": "avaliable",
@@ -289,10 +273,6 @@
                         },
                         {
                             "type": "avaliable",
-                            "text": "5 індивідуальних занять"
-                        },
-                        {
-                            "type": "avaliable",
                             "text": "Сертифікат в кінці проходження курсу"
                         }
                     ]
@@ -308,10 +288,6 @@
                         {
                             "type": "avaliable",
                             "text": "Вільний доступ 1 рік"
-                        },
-                        {
-                            "type": "avaliable",
-                            "text": "5 індивідуальних занять"
                         },
                         {
                             "type": "avaliable",
@@ -374,12 +350,12 @@
         },
         "prices": {
             "title": "Тарифи",
-            "link": "https://paypal.me/bookingsavbea?country.x=GB&locale.x=en_GB",
             "listType": "primary",
             "items": [
                 {
                     "price": 200,
                     "type": "Зі мною",
+                    "link": "https://checkout.stripe.com/c/pay/cs_live_a1SWvuQkL0of1jSUqMPaNlCg4nHKwb0su1nG4z5q41QZdXNLIAOzbKkJjv#fidkdWxOYHwnPyd1blppbHNgWjA0S2FmVXJOfHx8cWcxQW1zaVVKNk1WTXA3bFJUNjU2SXNBdWlmdEpjbzxmbkI1Z0Rva3NSNzJkPDZzR11US0JKTTBRS2dyPFBmbVxAaVwzTFUzYmdvX0hwNTV1YDVKYjJXMycpJ3VpbGtuQH11anZgYUxhJz8nZEBQMnFQYFZ1NF0wNn0zZkhLJ3gl",
                     "list": [
                         {
                             "type": "avaliable",
@@ -391,10 +367,6 @@
                         },
                         {
                             "type": "avaliable",
-                            "text": "5 індивідуальних занять"
-                        },
-                        {
-                            "type": "avaliable",
                             "text": "Сертифікат в кінці проходження курсу"
                         }
                     ]
@@ -402,6 +374,7 @@
                 {
                     "price": 75,
                     "type": "Самостійно",
+                    "link": "https://checkout.stripe.com/c/pay/cs_live_a1xWHlv35QczPFHX27JUg2bwfux4ii8bzdKHYjVE745G5Gc589gbWTRUPI#fidkdWxOYHwnPyd1blppbHNgWjA0S2FmVXJOfHx8cWcxQW1zaVVKNk1WTXA3bFJUNjU2SXNBdWlmdEpjbzxmbkI1Z0Rva3NSNzJkPDZzR11US0JKTTBRS2dyPFBmbVxAaVwzTFUzYmdvX0hwNTV1YDVKYjJXMycpJ3VpbGtuQH11anZgYUxhJz8nNDFuPEY3YFZ1YUNLMUdkMG5uJ3gl",
                     "list": [
                         {
                             "type": "unavalibale",
@@ -410,10 +383,6 @@
                         {
                             "type": "avaliable",
                             "text": "Вільний доступ 1 рік"
-                        },
-                        {
-                            "type": "avaliable",
-                            "text": "5 індивідуальних занять"
                         },
                         {
                             "type": "avaliable",
