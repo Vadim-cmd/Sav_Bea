@@ -52,7 +52,7 @@
             ]
         },
         "prices": {
-            "title": "Tarifs",
+            "title": "Tariffs",
             "link": "https://wa.me/message/DOGACHSEYEJ7M1",
             "listType": "primary",
             "items": [
@@ -180,7 +180,7 @@
             ]
         },
         "prices": {
-            "title": "Тарифи",
+            "title": "Tariffs",
             "link": "https://wa.me/message/DOGACHSEYEJ7M1",
             "listType": "primary",
             "items": [
@@ -271,7 +271,7 @@
             }
         },
         "prices": {
-            "title": "Tarifs",
+            "title": "Tariffs",
             "link": "https://wa.me/message/DOGACHSEYEJ7M1",
             "listType": "primary",
             "items": [
@@ -362,18 +362,18 @@
                     "type": "primary"
                 },
                 {
-                    "text": "Самопрезентація",
+                    "text": "Self-presentation",
                     "border": true,
                     "type": "primary"
                 }
             ],
             "practicesMaterials": {
-                "text": "Практичні матеріали та завдання у форматах:"
+                "text": "Practical materials and tasks in formats:"
             }
         },
         "prices": {
-            "title": "Тарифи",
-            "link": "https://paypal.me/bookingsavbea?country.x=GB&locale.x=en_GB",
+            "title": "Tariffs",
+            "link": "https://buy.stripe.com/aEU7tUeSp1X53x6cMN",
             "listType": "primary",
             "items": [
                 {
