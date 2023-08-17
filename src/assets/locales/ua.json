@@ -130,17 +130,12 @@
                     "type": "primary"
                 },
                 {
-                    "text": "Інтеральні оспіви",
+                    "text": "Інтеральні оспівування",
                     "border": true,
                     "type": "primary"
                 },
                 {
                     "text": "Штрихи",
-                    "border": true,
-                    "type": "primary"
-                },
-                {
-                    "text": "Міміка та Артикуляція",
                     "border": true,
                     "type": "primary"
                 },
