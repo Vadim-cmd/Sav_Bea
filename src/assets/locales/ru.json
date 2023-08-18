@@ -2,11 +2,11 @@
     "i-know-my-voice": {
         "headers": {
             "title": "Курс “I know my voice”",
-            "poster": "./images/courses/photo-1.jpg",
+            "poster": "../images/courses/photo-1.jpg",
             "content": "<p class=\"mb-6\">На этом курсе вы получите последние знания о голосе через American Science Model EVT</p><p class=\"mb-6\">Главная цель - развитие мышечного контроля над голосом</p><p class=\"mb-6\">Освоишь технику вокала:</p><ul class=\"mb-6\"><li>- fry</li><li>- субтон</li><li>- фальцет</li><li>- 4 вида Mix voice</li><li>- Belting (уровень 1)</li><li>- Whistle tone (СВИСТОК)</li><li>- Ratle (рык как у Beyonce, Christina Aguilera)</li></ul><p class=\"mb-6\">Вы научитесь анализировать ваши и другие голоса</p><p>Получить знания, необходимые для гигиены голоса <br/>Создашь свой собственный вокальный дизайн <br/> на примере песни, которую мы будем изучать вместе</p>"
         },
         "body": {
-            "content": "<div class=\"i-know-my-voice-wrapper\"><ul><li><div>Продолжительность - &nbsp;<strong>6 недель</strong></div></li><li><div><strong>2 занятия</strong> в неделю - теория и практика</div></li><li><div>1 занятие - <strong>2 часа</strong></div></li><li><div>Поддержка <strong>24\\7</strong></div></li><li><div>Окончательный тест <strong>сертифікат</strong></div></li></ul><div class=\"i-know-my-voice-medias\"><p>Практические материалы и задачи в форматах:</p><div><svg width=\"63\" height=\"76\"><use xlink:href=\"./icons/icons-sprite.svg#icon-volume\"/></svg><svg width=\"76\" height=\"76\"><use xlink:href=\"./icons/icons-sprite.svg#icon-play\"/></svg><svg width=\"82\" height=\"76\"><use xlink:href=\"./icons/icons-sprite.svg#icon-pdf\"/></svg></div></div><div class=\"warning-text\">В конце курса вас будет ждать <strong>вокальний прорыв - </strong>понимание и способность контролировать свой голос Владение 6 основными методами и приемами</div></div>"
+            "content": "<div class=\"i-know-my-voice-wrapper\"><ul><li><div>Продолжительность - &nbsp;<strong>6 недель</strong></div></li><li><div><strong>2 занятия</strong> в неделю - теория и практика</div></li><li><div>1 занятие - <strong>2 часа</strong></div></li><li><div>Поддержка <strong>24\\7</strong></div></li><li><div>Окончательный тест <strong>сертифікат</strong></div></li></ul><div class=\"i-know-my-voice-medias\"><p>Практические материалы и задачи в форматах:</p><div><svg width=\"63\" height=\"76\"><use xlink:href=\"../icons/icons-sprite.svg#icon-volume\"/></svg><svg width=\"76\" height=\"76\"><use xlink:href=\"../icons/icons-sprite.svg#icon-play\"/></svg><svg width=\"82\" height=\"76\"><use xlink:href=\"../icons/icons-sprite.svg#icon-pdf\"/></svg></div></div><div class=\"warning-text\">В конце курса вас будет ждать <strong>вокальний прорыв - </strong>понимание и способность контролировать свой голос Владение 6 основными методами и приемами</div></div>"
         },
         "prices": {
             "title": "Цена",
@@ -23,7 +23,7 @@
     "breath-control": {
         "headers": {
             "title": "Курс “Breath control”",
-            "poster": "./images/courses/photo-2.jpg",
+            "poster": "../images/courses/photo-2.jpg",
             "content": "<p class=\"mb-6\">Я знаю, что для многих вокальное дыхание остается загадкой с \"разными толкованиями\", но я помогу тебе разобраться, покажу самые нежные дыхательные упражнения.</p><p class=\"mb-6\">Кроме того, мы проанализируем наиболее распространенные дыхательные ошибки и стереотипы.</p><p class=\"mb-6\">”Как вдыхать? Как выдыхать?<br/>Должны ли певцы учиться дышать?<br/>Что такое низкий вдох? Нужно ли мне дышать животом? Что такое опора? Как соединить дыхание и звук? Как расслабить тело<br/>и избавиться от зажимов при дыхании?</p>"
         },
         "body": {
@@ -106,7 +106,7 @@
     "melismatic-vibes": {
         "headers": {
             "title": "Курс “Melismatic vibes”",
-            "poster": "./images/courses/photo-4.jpg",
+            "poster": "../images/courses/photo-4.jpg",
             "content": "<p class=\"mb-6\">Це унікальні знання у супер новому, зручному та доступному форматі. Тепер кожен зможе прокачати мелізматику</p><p class=\"mb-6\">Курс дозволить Вам:</p><ul><li><p>• Дізнатись секрети західної мелізматики</p></li><li><p>• Зрозуміти принцип вибудовування мелізмів</p></li><li><p>• Розвинути польотність та текстурність звуку, гнучкість та координацію голосу</p></li><li><p>• Застосувати західну техніку на слов'янському голосовому апараті</p></li><li><p>• Навчитися розбирати ритмічну фігуру всередині рифів та рулад</p></li><li><p>• Навчитися імпровізувати</p></li><li><p>• Опанувати стабільність і однорідність звуку</p></li><li><p>• Розширити вокальний діапазон</p></li></ul>"
         },
         "body": {
@@ -233,7 +233,7 @@
     "belting": {
         "headers": {
             "title": "Курс “Belting”",
-            "poster": "./images/courses/photo-3.jpg",
+            "poster": "../images/courses/photo-3.jpg",
             "content": "<p class=\"mb-6\">На этом курсе ты:</p><ul><li>1. поймешь механику и получишь необходимые технические навыки для звуковой технологии Belting</li><li>2. Научишься отличать ремень от других звуков</li><li>3. Получите четкий алгоритм пошагового освоения ремней без голосовых травм</li><li>4. Научитесь звучать как западные звезды Селин Дион и Уитни Хьюстон</li><li>5. Вы узнаете о возможностях преобразования пояса, смешивая его с другими вокальными техниками</li></ul>"
         },
         "body": {
@@ -323,7 +323,7 @@
     "power-of-voice": {
         "headers": {
             "title": "Курс “Power of voice”",
-            "poster": "./images/courses/photo-5.jpg",
+            "poster": "../images/courses/photo-5.jpg",
             "content": "<p class=\"mb-6\">На этом курсе ты:</p><ul><li class=\"mb-6\">1.Научишься эффективной и компетентной речи</li><li class=\"mb-6\">2. Сможешь смело использовать свой голос в любой ситуации</li><li class=\"mb-6\">3. Научишься управлять главным инструментом для достижения целей, увеличения доходов, сохранения внимания слушателя</li><li class=\"mb-6\">4.Ты будешь уверенно отстаивать свою позицию</li></ul>"
         },
         "body": {

@@ -47,9 +47,29 @@ window.addEventListener('scroll', function () {
     }
 })
 
+const checkFeedbacksHeight = (feedback) => {
+    const text = feedback.querySelector('.feedbacks-item--text span')
+    const activator = feedback.querySelector('.feedbacks-item--active')
+
+    const textHeight = window.innerWidth >= 768 ? 175 : 100
+
+    if (feedback.querySelector('.feedbacks-item--text').classList.contains('active')) {
+        return
+    }
+
+    if (text.offsetHeight > textHeight) {
+        activator.classList.remove('hide')
+        activator.classList.add('d-block')
+    } else {
+        activator.classList.remove('d-block')
+        activator.classList.add('hide')
+    }
+}
 const feedbacksItem = document.querySelectorAll('.feedbacks-item')
 
 feedbacksItem.forEach((feedback) => {
+    checkFeedbacksHeight(feedback)
+
     feedback.addEventListener('click', (event) => {
         const self = event.target
 
@@ -59,6 +79,10 @@ feedbacksItem.forEach((feedback) => {
             feedback.querySelector('.feedbacks-item--text').classList.add('active')
         }
     })
+})
+
+window.addEventListener('resize', () => {
+    feedbacksItem.forEach((feedback) => checkFeedbacksHeight(feedback))
 })
 
 console.log('connect')

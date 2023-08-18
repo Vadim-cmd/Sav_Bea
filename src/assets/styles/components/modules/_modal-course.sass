@@ -211,7 +211,7 @@
             +screen($md)
                 font-size: 24px
                 line-height: 36px
-            
+
             +screen($lmd)
                 font-size: 28px
                 line-height: 36px
@@ -282,7 +282,7 @@
 
         +screen($lmd)
             flex-direction: row
-        
+
         &-wrapper
             +screen($lmd, 'max')
                 display: flex
@@ -293,7 +293,6 @@
 
             +screen($lmd, 'max')
                 margin: 80px auto
-            
 
             p
                 font-size: 24px
@@ -315,6 +314,25 @@
                     &:not(:last-child)
                         +screen($lmd)
                             margin-bottom: 86px
+
+.power-of-voice
+    &--first, &--second
+        ul
+            margin: 0 auto
+            list-style: disc
+            padding-left: 18px
+
+            +screen($lmd)
+                font-size: 24px
+                line-height: 42px
+
+    &--first
+        ul
+            max-width: 450px
+
+    &--second
+        ul
+            max-width: 570px
 
 .breath-control
     font-size: 24px
