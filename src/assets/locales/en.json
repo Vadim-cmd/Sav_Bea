@@ -138,17 +138,12 @@
                     "type": "primary"
                 },
                 {
-                    "text": "Interval chants",
+                    "text": "Іnterval singing",
                     "border": true,
                     "type": "primary"
                 },
                 {
                     "text": "Strokes",
-                    "border": true,
-                    "type": "primary"
-                },
-                {
-                    "text": "Facial Expressions and Articulation",
                     "border": true,
                     "type": "primary"
                 },
@@ -217,10 +212,6 @@
                         {
                             "type": "avaliable",
                             "text": "Free access for 1 year"
-                        },
-                        {
-                            "type": "avaliable",
-                            "text": "5 individual lessons"
                         },
                         {
                             "type": "avaliable",
