@@ -10,7 +10,7 @@
         },
         "prices": {
             "title": "Ціна",
-            "link": "https://paypal.me/bookingsavbea?country.x=GB&locale.x=en_GB",
+            "link": "https://wa.me/message/DOGACHSEYEJ7M1",
             "listType": "secondary",
             "items": [
                 {
@@ -53,7 +53,7 @@
         },
         "prices": {
             "title": "Тарифи",
-            "link": "https://paypal.me/bookingsavbea?country.x=GB&locale.x=en_GB",
+            "link": "https://wa.me/message/DOGACHSEYEJ7M1",
             "listType": "primary",
             "items": [
                 {
@@ -67,6 +67,10 @@
                         {
                             "type": "avaliable",
                             "text": "Вільний доступ 1 рік"
+                        },
+                        {
+                            "type": "avaliable",
+                            "text": "5 індивідуальних занять"
                         },
                         {
                             "type": "avaliable",
@@ -168,7 +172,7 @@
         },
         "prices": {
             "title": "Тарифи",
-            "link": "https://paypal.me/bookingsavbea?country.x=GB&locale.x=en_GB",
+            "link": "https://wa.me/message/DOGACHSEYEJ7M1",
             "listType": "primary",
             "items": [
                 {
@@ -183,6 +187,11 @@
                             "type": "avaliable",
                             "text": "Вільний доступ 1 рік"
                         },
+                        {
+                            "type": "avaliable",
+                            "text": "5 індивідуальних занять"
+                        },
+                        
                         {
                             "type": "avaliable",
                             "text": "Сертифікат в кінці проходження курсу"
@@ -251,7 +260,7 @@
         },
         "prices": {
             "title": "Тарифи",
-            "link": "https://paypal.me/bookingsavbea?country.x=GB&locale.x=en_GB",
+            "link": "https://wa.me/message/DOGACHSEYEJ7M1",
             "listType": "primary",
             "items": [
                 {
@@ -262,9 +271,14 @@
                             "type": "avaliable",
                             "text": "Супровід 24/7 протягом 1 місяця"
                         },
+                        
                         {
                             "type": "avaliable",
                             "text": "Вільний доступ 1 рік"
+                        },
+                        {
+                            "type": "avaliable",
+                            "text": "5 індивідуальних занять"
                         },
                         {
                             "type": "avaliable",
@@ -297,7 +311,7 @@
         "headers": {
             "title": "Курс “Power of voice”",
             "poster": "./images/courses/photo-5.jpg",
-            "content": "<p class=\"mb-6\">На цьому курсі ти:</p><ul><li class=\"mb-6\">1.Навчишся ефективному та грамотному мовленню</li><li class=\"mb-6\">2. Сміливо зможеш застосовувати свій голос в будь-якій ситуації</li><li class=\"mb-6\">3. Навчишся керувати головним інструментом для досягнення цілей, збільшення доходу, утримання уваги слухача</li><li class=\"mb-6\">4.Ти будеш впевненно відстоювати свою позицію</li></ul>"
+            "content": "<p class=\"mb-6\">На цьому курсі ти:</p><ul><li class=\"mb-6\">1.Навчишся ефективному та грамотному мовленню</li><li class=\"mb-6\">2. Сміливо зможеш застосовувати свій голос в будь-якій ситуації</li><li class=\"mb-6\">3. Навчишся керувати головним інструментом для досягнення цілей, збільшення доходу, утримання уваги слухача</li><li class=\"mb-6\">4.Ти будеш впевнено відстоювати свою позицію</li></ul>"
         },
         "body": {
             "content": "<div class=\"power-of-voice--wrapper flex-container column row-lmd space-between mb-20\"><div class=\"power-of-voice--first mb-20\"><h3 class=\"modals-subtitle text-center mb-8\">Для кого курс:</h3><ul><li>Блогери</li><li>Спікери, коучі</li><li>Підприємці</li><li>Фахівці онлайн професій</li><li>Для тих, хто хоче розвиватися</li></ul></div> <div class=\"power-of-voice--second\"><h3 class=\"modals-subtitle text-center mb-8\">Курс “ Power of voice” для вас, якщо: </h3><ul><li>не любите свій голос або хочете звучати гарніше</li><li>звучите невпевнено та непереконливо</li><li>голос швидко втомлюється</li><li>відчуваєте затискачі</li><li>страх виступів</li></ul></div></div>",
@@ -350,7 +364,7 @@
                 {
                     "price": 200,
                     "type": "Зі мною",
-                    "link": "https://checkout.stripe.com/c/pay/cs_live_a1SWvuQkL0of1jSUqMPaNlCg4nHKwb0su1nG4z5q41QZdXNLIAOzbKkJjv#fidkdWxOYHwnPyd1blppbHNgWjA0S2FmVXJOfHx8cWcxQW1zaVVKNk1WTXA3bFJUNjU2SXNBdWlmdEpjbzxmbkI1Z0Rva3NSNzJkPDZzR11US0JKTTBRS2dyPFBmbVxAaVwzTFUzYmdvX0hwNTV1YDVKYjJXMycpJ3VpbGtuQH11anZgYUxhJz8nZEBQMnFQYFZ1NF0wNn0zZkhLJ3gl",
+                    "link": "https://wa.me/message/DOGACHSEYEJ7M1",
                     "list": [
                         {
                             "type": "avaliable",
@@ -362,6 +376,10 @@
                         },
                         {
                             "type": "avaliable",
+                            "text": "5 індивідуальних занять"
+                        },
+                        {
+                            "type": "avaliable",
                             "text": "Сертифікат в кінці проходження курсу"
                         }
                     ]
@@ -369,7 +387,7 @@
                 {
                     "price": 75,
                     "type": "Самостійно",
-                    "link": "https://checkout.stripe.com/c/pay/cs_live_a1xWHlv35QczPFHX27JUg2bwfux4ii8bzdKHYjVE745G5Gc589gbWTRUPI#fidkdWxOYHwnPyd1blppbHNgWjA0S2FmVXJOfHx8cWcxQW1zaVVKNk1WTXA3bFJUNjU2SXNBdWlmdEpjbzxmbkI1Z0Rva3NSNzJkPDZzR11US0JKTTBRS2dyPFBmbVxAaVwzTFUzYmdvX0hwNTV1YDVKYjJXMycpJ3VpbGtuQH11anZgYUxhJz8nNDFuPEY3YFZ1YUNLMUdkMG5uJ3gl",
+                    "link": "https://wa.me/message/DOGACHSEYEJ7M1",
                     "list": [
                         {
                             "type": "unavalibale",
