@@ -319,7 +319,7 @@
             "content": "<p class=\"mb-6\">On this course you will</p><ul><li class=\"mb-6\">1.Learn effective and competent speech</li><li class=\"mb-6\">2. You can safely use your voice in any situation</li><li class=\"mb-6\">3. Learn to manage the main tool to achieve goals, increase income, keep the listener's attention</li><li class=\"mb-6\">4.You will confidently defend your position</li></ul>"
         },
         "body": {
-            "content": "<div class=\"power-of-voice--wrapper\"><div><h3>For whom this Course:</h3><ul><li>Bloggers</li><li>Speakers, coaches</li><li>Entrepreneurs<li><li>Specialists of online professions</li><li>For those who wants to develop</li></ul></div> <div><h3>Course “ Power of voice” for You if: </h3><ul><li>You don't like your voice or want to sound prettier</li><li>sound uncertain and unconvincing</li><li>voice gets tired quickly</li><li>feel clamps</li><li>fear of speaking</li></ul><div></div>",
+            "content": "<div class=\"power-of-voice--wrapper flex-container column row-lmd space-between mb-20\"><div class=\"power-of-voice--first mb-20\"><h3 class=\"modals-subtitle text-center mb-8\">For whom this Course:</h3><ul><li>Bloggers</li><li>Speakers, coaches</li><li>Entrepreneurs</li><li>Specialists of online professions</li><li>For those who wants to develop</li></ul></div> <div class=\"power-of-voice--second\"><h3 class=\"modals-subtitle text-center mb-8\">Course “ Power of voice” for You if: </h3><ul><li>You don't like your voice or want to sound prettier</li><li>sound uncertain and unconvincing</li><li>voice gets tired quickly</li><li>feel clamps</li><li>fear of speaking</li></ul></div></div>",
             "programTitle": "Course Program:",
             "programs": [
                 {

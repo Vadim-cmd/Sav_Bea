@@ -57,7 +57,7 @@ const checkFeedbacksHeight = (feedback) => {
         return
     }
 
-    if (text.offsetHeight > textHeight) {
+    if (text && text.offsetHeight > textHeight) {
         activator.classList.remove('hide')
         activator.classList.add('d-block')
     } else {

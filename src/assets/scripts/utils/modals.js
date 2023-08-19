@@ -1,7 +1,15 @@
 import generateContent from '../courses/components'
 import courses from '../courses/items'
 
-let locale = 'ua'
+function removeSlashes(inputString) {
+    return inputString.replace(/\//g, '')
+}
+
+let locale = !removeSlashes(window.location.pathname)
+    ? 'ua'
+    : removeSlashes(window.location.pathname)
+
+console.log(locale)
 
 const modal = () => {
     let modalBlock = null
