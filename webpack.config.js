@@ -39,7 +39,7 @@ const plugins = () => {
                     filename: page,
                     template: `./${page}`,
                     minify: isDev,
-                    scriptLoading: 'blocking',
+                    scriptLoading: 'defer',
                 })
         ),
 
