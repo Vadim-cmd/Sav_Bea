@@ -2,6 +2,7 @@ import './utils/burger'
 import './utils/accordion'
 import './utils/carousels'
 import './utils/modals'
+import './utils/lazy'
 
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     anchor.addEventListener('click', function (e) {
