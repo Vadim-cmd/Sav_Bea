@@ -14,7 +14,8 @@
     "license": "ISC",
     "devDependencies": {
         "@babel/core": "^7.22.10",
-        "@babel/plugin-proposal-class-properties": "^7.13.0",
+        "@babel/plugin-proposal-class-properties": "^7.18.6",
+        "@babel/polyfill": "^7.12.1",
         "@babel/preset-env": "^7.22.10",
         "autoprefixer": "^10.2.6",
         "babel-eslint": "^10.1.0",
@@ -23,7 +24,7 @@
         "copy-webpack-plugin": "^7.0.0",
         "cross-env": "^7.0.3",
         "css-loader": "^5.2.6",
-        "css-minimizer-webpack-plugin": "^3.0.1",
+        "css-minimizer-webpack-plugin": "^3.4.1",
         "eslint": "^7.27.0",
         "eslint-config-prettier": "^8.3.0",
         "eslint-loader": "^4.0.2",
@@ -31,7 +32,8 @@
         "file-loader": "^6.2.0",
         "html-webpack-plugin": "^4.5.2",
         "html-webpack-pug-plugin": "^2.0.1",
-        "mini-css-extract-plugin": "^1.6.0",
+        "image-webpack-loader": "^8.1.0",
+        "mini-css-extract-plugin": "^1.6.2",
         "node-loader": "^1.0.3",
         "node-sass": "^8.0.0",
         "postcss": "^8.3.0",
@@ -43,13 +45,12 @@
         "sass": "^1.34.1",
         "sass-loader": "^10.1.1",
         "style-loader": "^2.0.0",
-        "terser-webpack-plugin": "^5.1.3",
+        "terser-webpack-plugin": "^5.3.9",
         "webpack": "^5.88.2",
         "webpack-cli": "^4.7.0",
         "webpack-dev-server": "^4.15.1"
     },
     "dependencies": {
-        "@babel/polyfill": "^7.12.1",
         "normalize.css": "^8.0.1",
         "swiper": "^10.0.4"
     }

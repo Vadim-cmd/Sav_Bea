@@ -1,8 +1,6 @@
-'use strict'
+export default async function initializeCarousel() {
+    const Swiper = await import('swiper')
 
-import Swiper from 'swiper'
-
-export default function initializeCarousel() {
     const certyficationModalCarousel = document.createElement('div')
 
     const certyficationItems = document.querySelectorAll('.certyfication-item')
@@ -172,7 +170,7 @@ export default function initializeCarousel() {
         }
         const seettings = Object.assign(sliders[key], generalOptions)
 
-        const carousel = new Swiper(`.${key}`, seettings)
+        const carousel = new Swiper.default(`.${key}`, seettings)
 
         const wrapper = document.querySelector(`.${key}`)
 

@@ -9,7 +9,6 @@ const { PurgeCSSPlugin } = require('purgecss-webpack-plugin')
 const glob = require('glob')
 
 const isDev = process.env.NODE_ENV === 'development'
-const isProd = !isDev
 
 const mainPath = isDev ? 'dist' : 'public'
 const filename = (ext) => (isDev ? `[name].${ext}` : `[name].[fullhash].${ext}`)
@@ -22,36 +21,27 @@ const PATHS = {
     css: 'css',
 }
 
-const optimization = () => {
-    const config = {
-        splitChunks: {
-            chunks: 'all',
-            automaticNameDelimiter: '_',
-        },
-    }
-
-    if (isProd) {
-        config.minimizer = [new CssMinimizerPlugin(), new TerserWebpackPlugin()]
-    }
-
-    return config
+const optimization = {
+    splitChunks: {
+        chunks: 'all',
+        automaticNameDelimiter: '_',
+    },
+    minimizer: [new CssMinimizerPlugin(), new TerserWebpackPlugin()],
 }
 
 const plugins = () => {
     const pages = ['index.html', 'ru/index.html', 'en/index.html']
 
-    const pagesWebpackPlagin = pages.map(
-        (page) =>
-            new HTMLWebpackPlugin({
-                filename: page,
-                template: `./${page}`,
-                minify: isProd,
-                scriptLoading: 'blocking',
-            })
-    )
-
-    const base = [
-        ...pagesWebpackPlagin,
+    return [
+        ...pages.map(
+            (page) =>
+                new HTMLWebpackPlugin({
+                    filename: page,
+                    template: `./${page}`,
+                    minify: isDev,
+                    scriptLoading: 'blocking',
+                })
+        ),
 
         new CleanWebpackPlugin(),
 
@@ -77,8 +67,6 @@ const plugins = () => {
             ],
         }),
     ]
-
-    return base
 }
 
 const cssLoaders = (extra) => {
@@ -86,7 +74,7 @@ const cssLoaders = (extra) => {
         {
             loader: MiniCssExtractPlugin.loader,
             options: {
-                publicPath: ``,
+                publicPath: '',
             },
         },
         'css-loader',
@@ -145,13 +133,13 @@ module.exports = {
         filename: `${PATHS.js}/${filename('js')}`,
         path: path.resolve(__dirname, mainPath),
     },
-    optimization: optimization(),
+    optimization,
     devServer: {
         port: 4200,
         hot: isDev,
         liveReload: true,
     },
-    devtool: isDev && 'source-map',
+    devtool: isDev ? 'source-map' : false,
     plugins: plugins(),
     resolve: {
         extensions: ['.js', '.png', '.jpg', '.svg', '.css', '.sass', '.scss'],
@@ -164,11 +152,13 @@ module.exports = {
             {
                 test: /\.css$/,
                 use: cssLoaders(),
+                sideEffects: true,
             },
 
             {
                 test: /\.s[ac]ss$/i,
                 use: cssLoaders('sass-loader'),
+                sideEffects: true,
             },
 
             {
@@ -182,6 +172,12 @@ module.exports = {
                             outputPath: `../images/`,
                         },
                     },
+                    {
+                        loader: 'image-webpack-loader',
+                        options: {
+                            disable: isDev,
+                        },
+                    },
                 ],
             },
 
@@ -189,6 +185,7 @@ module.exports = {
                 test: /\.js$/i,
                 exclude: /node_modules/,
                 use: jsLoaders(),
+                sideEffects: true,
             },
         ],
     },
