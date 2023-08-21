@@ -5,9 +5,9 @@ module.exports = {
         node: true,
         es6: true,
     },
+    parser: 'babel-eslint',
     parserOptions: {
-        parser: 'babel-eslint',
-        ecmaVersion: 2017,
+        ecmaVersion: 2023,
         sourceType: 'module',
     },
     ecmaFeatures: {
@@ -17,6 +17,5 @@ module.exports = {
     },
     extends: ['prettier', 'plugin:prettier/recommended'],
     plugins: ['prettier'],
-    // add your custom rules here
     rules: {},
 }

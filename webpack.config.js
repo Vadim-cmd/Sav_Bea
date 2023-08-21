@@ -38,24 +38,20 @@ const optimization = () => {
 }
 
 const plugins = () => {
+    const pages = ['index.html', 'ru/index.html', 'en/index.html']
+
+    const pagesWebpackPlagin = pages.map(
+        (page) =>
+            new HTMLWebpackPlugin({
+                filename: page,
+                template: `./${page}`,
+                minify: isProd,
+                scriptLoading: 'blocking',
+            })
+    )
+
     const base = [
-        new HTMLWebpackPlugin({
-            filename: `index.html`,
-            template: './index.html',
-            minify: isProd,
-        }),
-
-        new HTMLWebpackPlugin({
-            filename: `ru/index.html`,
-            template: './ru/index.html',
-            minify: isProd,
-        }),
-
-        new HTMLWebpackPlugin({
-            filename: `en/index.html`,
-            template: './en/index.html',
-            minify: isProd,
-        }),
+        ...pagesWebpackPlagin,
 
         new CleanWebpackPlugin(),
 
@@ -78,11 +74,6 @@ const plugins = () => {
                     from: path.resolve(__dirname, 'src/assets/icons'),
                     to: path.join(__dirname, PATHS.icons),
                 },
-
-                // {
-                //     from: path.resolve(__dirname, 'src/assets/videos'),
-                //     to: path.join(__dirname, PATHS.videos),
-                // },
             ],
         }),
     ]
