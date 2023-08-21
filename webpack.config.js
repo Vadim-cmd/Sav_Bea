@@ -12,7 +12,7 @@ const isDev = process.env.NODE_ENV === 'development'
 const isProd = !isDev
 
 const mainPath = isDev ? 'dist' : 'public'
-const filename = (ext) => (isDev ? `[name].${ext}` : `[name].[hash].${ext}`)
+const filename = (ext) => (isDev ? `[name].${ext}` : `[name].[fullhash].${ext}`)
 
 const PATHS = {
     js: `js`,
@@ -26,6 +26,7 @@ const optimization = () => {
     const config = {
         splitChunks: {
             chunks: 'all',
+            automaticNameDelimiter: '_',
         },
     }
 
@@ -78,10 +79,10 @@ const plugins = () => {
                     to: path.join(__dirname, PATHS.icons),
                 },
 
-                {
-                    from: path.resolve(__dirname, 'src/assets/videos'),
-                    to: path.join(__dirname, PATHS.videos),
-                },
+                // {
+                //     from: path.resolve(__dirname, 'src/assets/videos'),
+                //     to: path.join(__dirname, PATHS.videos),
+                // },
             ],
         }),
     ]
@@ -145,7 +146,7 @@ const jsLoaders = () => {
 
 module.exports = {
     context: path.resolve(__dirname, 'src'),
-    mode: 'development',
+    mode: process.env.NODE_ENV,
     entry: {
         index: ['@babel/polyfill', './index.js'],
     },

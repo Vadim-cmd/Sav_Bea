@@ -1,9 +1,3 @@
-import './utils/burger'
-import './utils/accordion'
-import './utils/carousels'
-import './utils/modals'
-import './utils/lazy'
-
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault()
@@ -84,6 +78,21 @@ feedbacksItem.forEach((feedback) => {
 
 window.addEventListener('resize', () => {
     feedbacksItem.forEach((feedback) => checkFeedbacksHeight(feedback))
-})
+})(async () => {
+    const burgerModule = await import('./utils/burger')
+    burgerModule.default()
+
+    const accordionModule = await import('./utils/accordion')
+    accordionModule.default()
+
+    const carouselsModule = await import('./utils/carousels')
+    carouselsModule.default()
+
+    const modalsModule = await import('./utils/modals')
+    modalsModule.default()
+
+    const lazyModule = await import('./utils/lazy')
+    lazyModule.default()
+})()
 
 console.log('connect')
