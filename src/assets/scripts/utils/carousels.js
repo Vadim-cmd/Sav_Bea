@@ -8,12 +8,12 @@ export default async function initializeCarousel() {
     let certyficationItemsStr = ''
 
     certyficationItems.forEach((item) => {
-        const img = item.querySelector('img').src
+        const img = item.querySelector('img')
 
         certyficationItemsStr += `
             <div class="certyfication-item my-auto swiper-slide">
                 <img
-                    src="${img}"
+                    src="${img.dataset.src}"
                     alt="certyfication-1"
                 />
             </div>

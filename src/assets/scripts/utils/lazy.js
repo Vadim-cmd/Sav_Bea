@@ -8,7 +8,7 @@ export default function initializeLazy() {
                 const image = entry.target
                 const src = image.getAttribute('data-src')
                 image.setAttribute('src', src)
-                image.removeAttribute('data-src')
+                // image.removeAttribute('data-src')
                 observer.unobserve(image)
             }
         })
