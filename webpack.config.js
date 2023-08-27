@@ -5,8 +5,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
 const TerserWebpackPlugin = require('terser-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
-const { PurgeCSSPlugin } = require('purgecss-webpack-plugin')
-const glob = require('glob')
+// const { PurgeCSSPlugin } = require('purgecss-webpack-plugin')
+// const glob = require('glob')
 
 const isDev = process.env.NODE_ENV === 'development'
 
@@ -49,9 +49,9 @@ const plugins = () => {
             filename: `${PATHS.css}/${filename('css')}`,
         }),
 
-        new PurgeCSSPlugin({
-            paths: glob.sync(path.join(__dirname, 'src/**/*'), { nodir: true }),
-        }),
+        // new PurgeCSSPlugin({
+        //     paths: glob.sync(path.join(__dirname, 'src/**/*'), { nodir: true }),
+        // }),
 
         new CopyWebpackPlugin({
             patterns: [
