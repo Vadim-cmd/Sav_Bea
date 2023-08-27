@@ -1,3 +1,14 @@
+function removeSlashes(inputString) {
+    return inputString.replace(/\//g, '')
+}
+
+let locale = !removeSlashes(window.location.pathname)
+    ? 'ua'
+    : removeSlashes(window.location.pathname)
+
+const buyButton = locale === 'ua' ? 'Купити' : locale === 'ru' ? 'Купить' : 'Buy'
+const path = locale === 'ua' ? '.' : '..'
+
 /**
  *
  * @param {Object} options
@@ -121,7 +132,7 @@ const prices = (options) => {
                 <a href="${
                     options.link || item.link
                 }" target="_black" class="button primary d-block mx-auto mt-8" style="max-width: 300px; height: 60px">
-                    Купити!
+                    ${buyButton}!
                 </a>
             </div>
         `
@@ -169,19 +180,19 @@ export default (options, trigger) => {
 
                                     <svg width="63" height="76">
                                         <use
-                                            xlink:href="./icons/icons-sprite.svg#icon-volume"
+                                            xlink:href="${path}/icons/icons-sprite.svg#icon-volume"
                                         />
                                     </svg>
 
                                     <svg width="76" height="76">
                                         <use
-                                            xlink:href="./icons/icons-sprite.svg#icon-play"
+                                            xlink:href="${path}/icons/icons-sprite.svg#icon-play"
                                         />
                                     </svg>
 
                                     <svg width="82" height="76">
                                         <use
-                                            xlink:href="./icons/icons-sprite.svg#icon-pdf"
+                                            xlink:href="${path}/icons/icons-sprite.svg#icon-pdf"
                                         />
                                     </svg>
                                 </div>

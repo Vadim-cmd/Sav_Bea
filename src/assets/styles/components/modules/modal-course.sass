@@ -1,0 +1,360 @@
+.modal-block
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: $white
+    z-index: 4
+    color: $black
+    padding: 60px 0 100px
+    pointer-events: none
+    opacity: 0
+    transition: opacity .2s ease-in-out
+    overflow: auto
+
+    &.visible
+        opacity: 1
+        pointer-events: initial
+
+.modals-subtitle
+    font-weight: 500
+    font-size: 24px
+    line-height: 29px
+
+    +screen($md)
+        font-size: 36px
+        line-height: 44px
+
+.program-item
+    .position
+        background: $primary-gradient
+        border-radius: 50%
+        color: $white
+        font-size: 16px
+        line-height: 20px
+        flex: 1 0 auto
+        width: 36px
+        max-width: 36px
+        height: 36px
+
+        +screen($md)
+            font-size: 24px
+            line-height: 36px
+            width: 52px
+            height: 52px
+            max-width: 52px
+
+    ul
+        font-weight: 400
+        font-size: 16px
+        line-height: 20px
+
+        +screen($md)
+            font-size: 24px
+            line-height: 36px
+
+    .content
+        min-height: 46px
+        width: 100%
+        font-size: 16px
+        line-height: 20px
+
+        +screen($md)
+            min-height: 61px
+            font-size: 24px
+            line-height: 36px
+
+        &.border
+            border: 2px solid $primary
+            border-radius: 50px
+
+.course
+    &-header
+        position: relative
+
+        &--close
+            font-size: 50px
+            color: $black
+            cursor: pointer
+            position: absolute
+            top: -50px
+            right: 0
+
+        &--content
+            flex: 1 1 auto
+            font-size: 24px
+            line-height: 36px
+
+            .title
+                font-weight: 500
+                font-size: 20px
+                line-height: 24px
+
+                +screen($md)
+                    font-size: 50px
+                    line-height: 61px
+
+        &--poster
+            flex: 1 0 500px
+            max-width: 500px
+
+    &-prices
+        max-width: 1060px
+        margin: 0 auto
+
+        .prices
+            &-title
+                font-weight: 500
+                font-size: 36px
+                line-height: 44px
+        .price
+            &-item
+                max-width: 500px
+
+                +screen($lmd)
+                    &:nth-child(1)
+                        margin-right: 30px
+
+                    &:nth-child(2)
+                        margin-left: 30px
+
+                &:has(.price-item--content.secondary)
+                    margin-left: auto
+                    margin-right: auto
+                    max-width: 345px
+
+                &--content
+                    &.secondary
+                        box-shadow: 4px 4px 76px rgba(239, 98, 143, 0.24), inset 2px 2px 16px rgba(255, 255, 255, 0.08)
+                        backdrop-filter: blur(42px)
+                        height: 250px
+                        justify-content: center
+
+                    &.primary
+                        border: 2px solid $secondary
+                        height: 482px
+
+                    .content
+                        &-price
+                            font-size: 60px
+                            line-height: 44px
+                            font-weight: 500
+
+                        &-type
+                            font-size: 24px
+                            line-height: 20px
+                            font-weight: 400
+
+                        &-item
+                            font-weight: 400
+                            display: flex
+                            font-size: 20px
+                            line-height: 20px
+
+                            +screen($md)
+                                font-size: 28px
+                                line-height: 28px
+
+                            &::before
+                                content: ''
+                                width: 24px
+                                height: 24px
+                                display: block
+                                background-repeat: no-repeat
+                                background-size: cover
+                                margin-top: 3px
+                                margin-right: 12px
+                                flex: 1 0 24px
+                                max-width: 24px
+
+                            &.avaliable
+                                &::before
+                                    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M4.77592 11.8462L4.43182 11.5198L4.08771 11.8462L2.65589 13.2044L2.27348 13.5672L2.65589 13.9299L8.38317 19.3628L8.72727 19.6892L9.07138 19.3628L21.3441 7.72096L21.7265 7.35821L21.3441 6.99545L19.9123 5.63725L19.5682 5.31083L19.2241 5.63725L8.72727 15.5944L4.77592 11.8462Z' fill='%23219333' stroke='%23219333'/%3E%3C/svg%3E")
+
+                            &.unavalibale
+                                &::before
+                                    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M18.1684 5.03171C18.35 5.10701 18.5149 5.21736 18.6538 5.35643L18.1684 5.03171ZM18.1684 5.03171C17.9867 4.95633 17.7919 4.91754 17.5952 4.91754C17.3985 4.91754 17.2037 4.95633 17.022 5.03171C16.8405 5.10702 16.6755 5.21738 16.5366 5.35646C16.5365 5.35657 16.5364 5.35668 16.5363 5.35679L12.0006 9.88323L7.46378 5.34643C7.32477 5.20741 7.15974 5.09714 6.97811 5.02191C6.79648 4.94668 6.60181 4.90796 6.40522 4.90796C6.20863 4.90796 6.01397 4.94668 5.83234 5.02191C5.65071 5.09714 5.48568 5.20741 5.34667 5.34643C5.20766 5.48544 5.09739 5.65047 5.02216 5.83209C4.94692 6.01372 4.9082 6.20839 4.9082 6.40498C4.9082 6.60157 4.94692 6.79624 5.02216 6.97786C5.09739 7.15949 5.20766 7.32452 5.34667 7.46353L9.88312 12L5.34667 16.5364C5.20766 16.6754 5.09739 16.8405 5.02216 17.0221C4.94692 17.2037 4.9082 17.3984 4.9082 17.595C4.9082 17.7916 4.94692 17.9862 5.02216 18.1679C5.09739 18.3495 5.20766 18.5145 5.34667 18.6535C5.48568 18.7925 5.65071 18.9028 5.83234 18.978C6.01397 19.0533 6.20863 19.092 6.40522 19.092C6.60181 19.092 6.79648 19.0533 6.97811 18.978C7.15974 18.9028 7.32477 18.7925 7.46378 18.6535L12.0002 14.1171L16.5367 18.6535C16.6757 18.7925 16.8407 18.9028 17.0223 18.978C17.204 19.0533 17.3986 19.092 17.5952 19.092C17.7918 19.092 17.9865 19.0533 18.1681 18.978C18.3497 18.9028 18.5148 18.7925 18.6538 18.6535C18.7928 18.5145 18.9031 18.3495 18.9783 18.1679C19.0535 17.9862 19.0922 17.7916 19.0922 17.595C19.0922 17.3984 19.0535 17.2037 18.9783 17.0221C18.9031 16.8405 18.7928 16.6754 18.6538 16.5364L14.1173 12L18.6538 7.46353C19.229 6.88833 19.229 5.93189 18.654 5.35661L18.1684 5.03171Z' fill='%23EF628F' stroke='%23EF628F'/%3E%3C/svg%3E")
+
+.warning-text
+    font-size: 20px
+    line-height: 30px
+    border: 2px solid #f86c9b
+    max-width: 914px
+    margin: 0 auto 80px
+    border-radius: 50px
+    padding: 26px 20px
+
+    +screen($md)
+        padding: 30px 60px
+        font-size: 24px
+        line-height: 36px
+
+    +screen($lmd)
+        padding: 38px 66px
+        font-size: 28px
+        line-height: 42px
+
+    strong
+        font-weight: 500
+
+.i-know-my-voice
+    &-medias
+        max-width: 402px
+        margin: 0 auto 80px
+
+        p
+            font-size: 20px
+            line-height: 30px
+
+            +screen($md)
+                font-size: 24px
+                line-height: 36px
+
+            +screen($lmd)
+                font-size: 28px
+                line-height: 36px
+        div
+            display: flex
+            align-items: center
+            justify-content: space-between
+            margin-top: 61px
+
+    &-wrapper
+        ul
+            max-width: 772px
+            margin: 0 auto 80px
+
+            li
+                display: flex
+                align-items: center
+
+                font-size: 24px
+                line-height: 30px
+
+                +screen($md)
+                    font-size: 28px
+                    line-height: 34px
+
+                &:not(:last-child)
+                    margin-bottom: 28px
+
+                &::before
+                    content: ''
+                    display: block
+                    width: 36px
+                    height: 36px
+                    border-radius: 50%
+                    background: linear-gradient(90deg, #FE1A46 0%, #F76B9A 88.1%)
+                    margin-right: 20px
+                    flex: 0 0 auto
+
+                strong
+                    font-weight: 500
+
+.melismatic-vibes--programs
+    max-width: 1045px
+    margin: 0 auto
+    margin-bottom: 80px
+
+    &-wrapper
+        display: flex
+        justify-content: center
+
+        +screen($lmd)
+            display: block
+
+    ul
+        +screen($lmd)
+            max-height: 800px
+            display: flex
+            flex-direction: column
+            flex-wrap: wrap
+
+.power-of-voice, .belting
+    &--programs
+        max-width: 1045px
+        margin: 0 auto
+        display: flex
+        justify-content: space-between
+        flex-direction: column
+
+        +screen($lmd)
+            flex-direction: row
+
+        &-wrapper
+            +screen($lmd, 'max')
+                display: flex
+                justify-content: center
+
+        &-medias
+            max-width: 345px
+
+            +screen($lmd, 'max')
+                margin: 80px auto
+
+            p
+                font-size: 24px
+                font-weight: 400
+                line-height: 36px
+
+            .medias
+                display: flex
+                align-items: flex-start
+                justify-content: space-between
+                margin-top: 61px
+
+                +screen($lmd)
+                    align-items: center
+                    flex-direction: column
+                    justify-content: flex-start
+
+                svg
+                    &:not(:last-child)
+                        +screen($lmd)
+                            margin-bottom: 86px
+
+.power-of-voice
+    &--first, &--second
+        ul
+            margin: 0 auto
+            list-style: disc
+            padding-left: 18px
+
+            +screen($lmd)
+                font-size: 24px
+                line-height: 42px
+
+    &--first
+        ul
+            max-width: 450px
+
+    &--second
+        ul
+            max-width: 570px
+
+.breath-control
+    font-size: 24px
+    line-height: 36px
+
+    &-head-list
+        font-weight: 500
+        max-width: 870px
+        margin: 0 auto 60px
+
+    &-list
+        max-width: 870px
+        margin: 0 auto 80px
+
+        li
+            display: flex
+
+            span
+                margin-right: 10px
+
+    &--programs
+        &-wrapper
+            ul
+                display: flex
+                align-items: center
+                justify-content: space-between

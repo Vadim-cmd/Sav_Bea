@@ -1,3 +1,13 @@
+function removeSlashes(inputString) {
+    return inputString.replace(/\//g, '')
+}
+
+let locale = !removeSlashes(window.location.pathname)
+    ? 'ua'
+    : removeSlashes(window.location.pathname)
+
+const path = locale === 'ua' ? '.' : '..'
+
 export default async function initializeCarousel() {
     const Swiper = await import('swiper')
 
@@ -26,7 +36,7 @@ export default async function initializeCarousel() {
         <div class="inner radius-25 px-4 py-13 px-md-11 py-md-12" style="max-width: 728px">
             <div class="window-close">
                 <svg width="24" height="24">
-                    <use xlink:href="./icons/icons-sprite.svg#icon-close" stroke="#EF628F" />
+                    <use xlink:href="${path}/icons/icons-sprite.svg#icon-close" stroke="#EF628F" />
                 </svg>
             </div>
 
