@@ -30,18 +30,36 @@ const optimization = {
 }
 
 const plugins = () => {
+    const excludedPages = [
+        'privacy-policy.html',
+        'public-offer-contract.html',
+        'refund-policy.html',
+        'en/privacy-policy.html',
+        'en/public-offer-contract.html',
+        'en/refund-policy.html',
+    ]
+
     const pages = ['index.html', 'ru/index.html', 'en/index.html']
 
     return [
-        ...pages.map(
-            (page) =>
-                new HTMLWebpackPlugin({
-                    filename: page,
-                    template: `./${page}`,
-                    minify: isDev,
-                    scriptLoading: 'defer',
-                })
-        ),
+        ...pages.map((page) => {
+            return new HTMLWebpackPlugin({
+                filename: page,
+                template: `./${page}`,
+                minify: isDev,
+                scriptLoading: 'defer',
+            })
+        }),
+
+        ...excludedPages.map((page) => {
+            return new HTMLWebpackPlugin({
+                filename: page,
+                template: `./${page}`,
+                minify: isDev,
+                scriptLoading: 'blocking',
+                inject: false,
+            })
+        }),
 
         new CleanWebpackPlugin(),
 
